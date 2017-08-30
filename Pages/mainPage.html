@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no,minimal-ui"/>
+    <title>首页</title>
+    <script>
+    		(function(){
+    			var html = document.documentElement;
+    			var hWidth = html.getBoundingClientRect().width;
+    			html.style.fontSize = hWidth / 16 + "px";
+    		})()
+    		document.addEventListener("touchstart",function(e){
+    			e.preventDefault();
+    		});
+    	</script>
+    <link rel="stylesheet" href="../CSS/base.css" />
+    <link rel="stylesheet" href="../bs/css/bootstrap.css" />
+    <link rel="stylesheet" href="../CSS/mainPage.css">
+    	
+</head>
+<body>
+    <div class="topPart">
+        <div id="sales">
+        		<a id="tip">
+        			  库存预警：您的商品库存接近警戒值，请尽快补货！
+        			<span id="close" class="glyphicon glyphicon-remove-circle"></span>
+        		</a>
+            <div class="saleNum">220000</div>
+            <div class="desc">销售额(今天)</div>
+        </div>
+        <div class="goal">
+            <div class="txt">
+            		<span>本月总销售</span>
+            		<span>销售目标</span>
+            </div>
+            <div class="wrap">
+                <div class="progress"></div>
+            </div>
+        </div>
+        <div class="sale">
+            <div class="monthSale">
+                <span>本月总销售</span>
+                <span class="count">1,325,000.00</span>
+            </div>
+            <div>
+                <a class="salePurpose">销售目标 <span id="edit" class="glyphicon glyphicon-edit"></span></a>
+                <span class="count">5,000,000.00</span>
+            </div>
+        </div>
+    </div>
+    <div class="middlePart">
+        <div class="rows">
+            <div class="item">
+                <a href="#">销售</a>
+                <span class="badge"></span>
+            </div>
+            <div class="item">
+                <a href="#">补货</a>
+                <span class="badge"></span>
+            </div>
+            <div class="item">
+                <a href="#">库存</a>
+                <span class="badge"></span>
+            </div>
+            <div class="item">
+                <a href="#">促销</a>
+                <span class="badge"></span>
+            </div>
+        </div>
+        <div class="rows">
+            <div class="item">
+                <a href="#">订货单</a>
+                <span class="badge"></span>
+            </div>
+            <div class="item">
+                <a href="#">送货预约单</a>
+                <span class="badge"></span>
+            </div>
+            <div class="item">
+                <a href="#">退厂单</a>
+                <span class="badge"></span>
+            </div>
+            <div class="item">
+                <a href="#">采购入库单</a>
+                <span class="badge"></span>
+            </div>
+        </div>
+    </div>
+    <div class="bottomPart">
+        <a id="main">首页</a>
+        <a class="active" id="mine">我的</a>
+    </div>
+</body>
+</html>

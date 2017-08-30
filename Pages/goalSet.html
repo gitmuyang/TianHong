@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,user-scalable=no" />
+		<title>目标设置</title>
+		<link rel="stylesheet" href="../bs/css/bootstrap.css" />
+		<link rel="stylesheet" href="../CSS/base.css" />
+		<link rel="stylesheet" href="../CSS/goalSet.css" />
+		<script>
+			(function() {
+				var html = document.documentElement;
+				var hWidth = html.getBoundingClientRect().width;
+				html.style.fontSize = hWidth / 16 + "px";
+			})()
+			document.addEventListener("touchstart", function(e) {
+				e.preventDefault();
+			});
+		</script>
+	</head>
+
+	<body>
+		<div id="top">
+			<p class="totalGoal">50000</p>
+			<p>总销售目标</p>
+		</div>
+		<section id="stores">
+			<ul id="list">
+				<li>
+					<div class="storeName">南山店 <span class="star"></span></div>
+					<div>销售目标
+						<input class="saleGoal" type="text" value="326000" />
+					</div>
+				</li>
+				<li>
+					<div class="storeName">南山店 <span class="star"></span></div>
+					<div>销售目标
+						<input class="saleGoal" type="text" value="326000" />
+					</div>
+				</li>
+				<li>
+					<div class="storeName">南山店 <span class="star"></span></div>
+					<div>销售目标
+						<input class="saleGoal" type="text" value="326000" />
+					</div>
+				</li>	
+			</ul>
+			<footer style="opacity: 0;">加载更多</footer>
+		</section>
+		<div id="save">
+			保 存
+		</div>
+		
+	</body>
+
+</html>

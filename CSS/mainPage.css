@@ -1,0 +1,147 @@
+body {
+  background: #EFEFEF;
+}
+.topPart {
+  background: #D32828;
+  color: white;
+}
+#sales {
+  text-align: center;
+}
+#tip {
+  position: relative;
+  background: #da4a48;
+  font-size: 0.625rem;
+  line-height: 1.25rem;
+  text-align: left;
+  text-indent: 0.1875rem;
+  display: block;
+}
+#close {
+  display: block;
+  position: absolute;
+  right: 0.3125rem;
+  top: 0;
+  bottom: 0;
+  line-height: 1.25rem;
+  font-size: 0.5625rem;
+}
+.saleNum {
+  margin-top: 0.8125rem;
+  font-size: 1.5625rem;
+}
+.desc {
+  margin: 0.8125rem 0;
+  font-size: 0.75rem;
+}
+.goal {
+  font-size: 0.75rem;
+  line-height: 1.125rem;
+}
+.goal .txt {
+  display: flex;
+  display: -webkit-box;
+}
+.goal .txt span {
+  display: block;
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+}
+.goal .txt span:nth-of-type(1) {
+  text-align: left;
+  text-indent: 0.3125rem;
+}
+.goal .txt span:nth-of-type(2) {
+  text-align: right;
+  padding-right: 0.3125rem;
+}
+.goal .wrap {
+  margin: 0.3125rem;
+  padding: 0.15625rem;
+  background: white;
+  height: 0.5rem;
+  border-radius: 0.625rem;
+}
+.goal .progress {
+  width: 6.25rem;
+  background: #D32828;
+  height: 0.5rem;
+  border-radius: 0.3125rem;
+}
+.sale {
+  padding: 0.5rem 0;
+  display: flex;
+  display: -webkit-box;
+  text-align: center;
+  font-size: 0.75rem;
+  line-height: 1.25rem;
+}
+.sale span,
+.sale .salePurpose {
+  display: block;
+  padding: 0.125rem 0;
+}
+.sale .salePurpose {
+  position: relative;
+}
+.sale #edit {
+  position: absolute;
+  right: 1.25rem;
+  line-height: 1.25rem;
+  font-size: 0.75rem;
+}
+.sale .count {
+  font-size: 0.875rem;
+}
+.sale div {
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+}
+.middlePart {
+  height: 12.25rem;
+}
+.rows {
+  display: -webkit-box;
+  display: flex;
+  padding: 0.9375rem 0 0 0;
+  -webkit-box-pack: justify;
+  justify-content: space-around;
+}
+.rows div {
+  width: 3.125rem;
+  height: 3.125rem;
+  box-sizing: border-box;
+  border: 1px solid darkgrey;
+  border-radius: 1.5625rem;
+  line-height: 3.125rem;
+  background: white;
+}
+.rows div a {
+  display: block;
+  color: black;
+  font-size: 0.5625rem;
+  text-align: center;
+}
+.bottomPart {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  display: -webkit-box;
+}
+.bottomPart a {
+  display: block;
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+  text-align: center;
+  line-height: 2.75rem;
+  height: 2.75rem;
+  font-size: 0.75rem;
+  background: white;
+  color: #D32828;
+}
+.bottomPart .active {
+  background: #D32828;
+  color: white;
+}

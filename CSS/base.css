@@ -1,0 +1,42 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	
+	/* 禁止选中文字 */
+	-webkit-user-select: none;
+	font-family: helvetica;
+	/* 禁止横竖屏切换时字体大小的改变 */
+	-webkit-text-size-adjust: 100%;
+}
+
+a,input,button {
+	/* 去掉按下的阴影 */
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+input,button {
+	/* 去掉iOS 自带的圆角 */
+	-webkit-appearance: none;
+	border-radius: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+img{
+	vertical-align: top;
+}
+
+h1{
+	margin: 0;
+}
+
