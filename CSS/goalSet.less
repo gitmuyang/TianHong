@@ -1,37 +1,98 @@
-@r:16rem;
-
-boy {
-    color: white;
+@r: 16rem;
+body,
+html {
+    position: relative;
+    height: 100%;
     background: #f1f1f1;
 }
 
 #top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
     background: #D32828;
     font-size: 12/@r;
     text-align: center;
     color: white;
+    height: 90/@r;
+}
+
+.totalGoal {
+    font-size: 30/@r;
+    padding-top: 20/@r;
     padding-bottom: 10/@r;
-    .totalGoal {
-        font-size: 30/@r;
-        padding-top: 20/@r;
-        padding-bottom: 10/@r;
-    }
 }
 
 #stores {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 44/@r;
+    top: 90/@r;
+    overflow: hidden;
     
 }
 
+#list {
+    padding-bottom: 20/@r;
+}
 
-#save{
+#list li {
+    margin-top: 10/@r;
+    color: black;
+    font-size: 12/@r;
+}
+
+#list li div {
+    line-height: 33/@r;
+    height: 33/@r;
+    background: white;
+    text-indent: 10/@r;
+    position: relative;
+}
+
+#list li .storeName {
+    margin-bottom: 2/@r;
+    .star {
+        color: #e3d111;
+    }
+}
+
+.saleGoal {
+    border: none;
+    text-align: right;
+}
+
+.saleGoal,
+.star {
     position: absolute;
-    bottom: 0;
+    right: 10/@r;
+    line-height: 33/@r;
+    height: 33/@r;
+}
+
+#stores footer {
+    position: absolute;
     left: 0;
     right: 0;
+    bottom: -32/@r;
+    height: 32/@r;
+    line-height: 32/@r;
+    text-align: center;
+    font-size: 12/@r;
+    opacity: 0;
+}
+
+#save {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
     text-align: center;
     background: #D32828;
     color: white;
     line-height: 44/@r;
     height: 44/@r;
-    font-size: 12/@r;
+    font-size: 14/@r;
 }

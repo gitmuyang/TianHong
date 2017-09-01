@@ -2,7 +2,7 @@ body {
   background: #EFEFEF;
 }
 .topPart {
-  background: #D32828;
+  background: #34CC92;
   color: white;
 }
 #sales {
@@ -10,7 +10,7 @@ body {
 }
 #tip {
   position: relative;
-  background: #da4a48;
+  background: #51D4A3;
   font-size: 0.625rem;
   line-height: 1.25rem;
   text-align: left;
@@ -64,7 +64,7 @@ body {
 }
 .goal .progress {
   width: 6.25rem;
-  background: #D32828;
+  background: #34CC92;
   height: 0.5rem;
   border-radius: 0.3125rem;
 }
@@ -83,6 +83,7 @@ body {
 }
 .sale .salePurpose {
   position: relative;
+  color: white;
 }
 .sale #edit {
   position: absolute;
@@ -139,9 +140,9 @@ body {
   height: 2.75rem;
   font-size: 0.75rem;
   background: white;
-  color: #D32828;
+  color: #34CC92;
 }
 .bottomPart .active {
-  background: #D32828;
+  background: #34CC92;
   color: white;
 }

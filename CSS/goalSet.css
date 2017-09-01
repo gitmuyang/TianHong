@@ -1,28 +1,85 @@
-boy {
-  color: white;
+body,
+html {
+  position: relative;
+  height: 100%;
   background: #f1f1f1;
 }
 #top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
   background: #D32828;
   font-size: 0.75rem;
   text-align: center;
   color: white;
-  padding-bottom: 0.625rem;
+  height: 5.625rem;
 }
-#top .totalGoal {
+.totalGoal {
   font-size: 1.875rem;
   padding-top: 1.25rem;
   padding-bottom: 0.625rem;
 }
-#save {
+#stores {
   position: absolute;
-  bottom: 0;
   left: 0;
   right: 0;
+  bottom: 2.75rem;
+  top: 5.625rem;
+  overflow: hidden;
+}
+#list {
+  padding-bottom: 1.25rem;
+}
+#list li {
+  margin-top: 0.625rem;
+  color: black;
+  font-size: 0.75rem;
+}
+#list li div {
+  line-height: 2.0625rem;
+  height: 2.0625rem;
+  background: white;
+  text-indent: 0.625rem;
+  position: relative;
+}
+#list li .storeName {
+  margin-bottom: 0.125rem;
+}
+#list li .storeName .star {
+  color: #e3d111;
+}
+.saleGoal {
+  border: none;
+  text-align: right;
+}
+.saleGoal,
+.star {
+  position: absolute;
+  right: 0.625rem;
+  line-height: 2.0625rem;
+  height: 2.0625rem;
+}
+#stores footer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -2rem;
+  height: 2rem;
+  line-height: 2rem;
+  text-align: center;
+  font-size: 0.75rem;
+  opacity: 0;
+}
+#save {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
   text-align: center;
   background: #D32828;
   color: white;
   line-height: 2.75rem;
   height: 2.75rem;
-  font-size: 0.75rem;
+  font-size: 0.875rem;
 }

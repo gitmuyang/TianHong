@@ -1,49 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width,user-scalable=no" />
-    <title>Rainbow</title>
-    <script>
-    		(function(){
-    			var html = document.documentElement;
-    			var hWidth = html.getBoundingClientRect().width;
-    			html.style.fontSize = hWidth / 16 + "px";
-    			/*
-    				若hWidth为320px,那么 1rem = 20px
-    				
-    			 */
-    		})()
-    </script>
-    <style>
-    		body{
-    			margin: 0;
-    		}
-    		div {
-    			float: left;
-    			width: 4rem;
-    			height: 4rem;
-    			box-sizing: border-box;
-    			border: 1px solid #000;
-    		}
-    		div:nth-of-type(1) {
-    			background: red;
-    		}
-    		div:nth-of-type(2) {
-    			background: yellow;
-    		}
-    		div:nth-of-type(3) {
-    			background: green;
-    		}
-    		div:nth-of-type(4) {
-    			background: blue;
-    		}
-    </style>
-</head>
-<body>
-	<div>1</div>
-	<div></div>
-	<div></div>
-	<div></div>
-</body>
+
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width,user-scalable=no" />
+		<title>Rainbow</title>
+		<script>
+		</script>
+		<style>
+			body{
+				margin: 0;
+			}
+			#main {
+				width: 320px;
+				height: 100px;
+				/*border: 1px solid #c3c3c3;*/
+				display: flex;
+			}
+			
+			#main div {
+				flex-grow: 1;
+			}
+			
+			
+		</style>
+	</head>
+
+	<body>
+		<div id="main">
+			<div style="background-color:coral;">12</div>
+			<div style="background-color:lightblue;">12</div>
+			<div style="background-color:khaki;">12</div>
+			<div style="background-color:pink;">12</div>
+			<div style="background-color:lightgrey;">12</div>
+		</div>
+	</body>
+
 </html>

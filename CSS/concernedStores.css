@@ -1,0 +1,32 @@
+body {
+  background: #F1F1F1;
+  color: black;
+  font-size: 0.75rem;
+}
+.wrap header {
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-indent: 0.625rem;
+}
+.list li div {
+  line-height: 2.0625rem;
+  height: 2.0625rem;
+  background: white;
+  text-indent: 0.625rem;
+  position: relative;
+}
+.list li .storeName {
+  margin-bottom: 0.125rem;
+}
+.star {
+  position: absolute;
+  right: 0.625rem;
+  line-height: 2.0625rem;
+  height: 2.0625rem;
+}
+.concerned .star {
+  color: #e3d111;
+}
+.unconcerned .star {
+  color: #c2c2c2;
+}

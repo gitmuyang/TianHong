@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,user-scalable=no" />
+		<title>我的信息</title>
+		<link rel="stylesheet" href="../CSS/base.css" />
+		<link rel="stylesheet" href="../bs/css/bootstrap.css" />
+		<link rel="stylesheet" href="../CSS/myInfo.css" /> 
+		<script>
+			(function(){
+				var html = document.documentElement;
+				var hWidth = html.getBoundingClientRect().width;
+				html.style.fontSize = hWidth / 16 + "px";
+			})()
+			document.addEventListener("touchstart",function(e){
+//				e.preventDefault();
+			});
+		</script>
+	</head>
+	<body>
+		<div class="top">
+			<div class="icon">
+			</div>
+			<p class="companyName">天虹商场股份有限公司</p>
+		</div>
+		<section class="content">
+			<ul>
+				<li>
+					<span class="title">账户</span>
+					<span class="detail">欧阳志</span>
+				</li>
+				<li>
+					<span class="title">联系方式</span>
+					<span class="detail">1501379670</span>
+				</li>
+				<li>
+					<a href="concernedStores.html">
+						<span class="title">我关注的门店</span>
+						<span class="glyphicon glyphicon-chevron-right detail"></span>
+					</a>
+				</li>
+				<li>
+					<span class="title">切换机构</span>
+					
+				</li>
+				<li>
+					<span class="title">意见反馈</span>
+					
+				</li>
+			</ul>
+		</section>
+		<div id="logOut">
+			退出登录
+		</div>
+	</body>
+</html>

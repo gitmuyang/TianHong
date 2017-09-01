@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,user-scalable=no" />
+		<title>我关注的门店</title>
+		<link rel="stylesheet" href="../CSS/base.css" />
+		<link rel="stylesheet" href="../bs/css/bootstrap.css" />
+		<link rel="stylesheet" href="../CSS/concernedStores.css" /> 
+		<script>
+			(function(){
+				var html = document.documentElement;
+				var hWidth = html.getBoundingClientRect().width;
+				html.style.fontSize = hWidth / 16 + "px";
+			})()
+			document.addEventListener("touchstart",function(e){
+//				e.preventDefault();
+			});
+		</script>
+	</head>
+	<body>
+		<div class="wrap">
+			<header>已关注的门店</header>
+			<ul class="list concerned">
+				<li>
+					<div class="storeName">南山店 <span class="star glyphicon glyphicon-star"></span></div>
+				</li>
+				<li>
+					<div class="storeName">宝安人民路店 <span class="star glyphicon glyphicon-star"></span></div>
+				</li>
+				<li>
+					<div class="storeName">蛇口工业区店 <span class="star glyphicon glyphicon-star"></span></div>
+				</li>
+				<li>
+					<div class="storeName">罗湖区晒布路店 <span class="star glyphicon glyphicon-star"></span></div>
+				</li>
+				<li>
+					<div class="storeName">龙华新区深圳北站店 <span class="star glyphicon glyphicon-star"></span></div>
+				</li>
+			</ul>
+		</div>
+		<div class="wrap">
+			<header>未关注的门店</header>
+			<ul class="list unconcerned">
+				<li>
+					<div class="storeName">南山西丽地铁站店 <span class="star glyphicon glyphicon-star"></span></div>
+				</li>
+				<li>
+					<div class="storeName">龙华人民路店 <span class="star glyphicon glyphicon-star"></span></div>
+				</li>
+				
+			</ul>
+		</div>
+	</body>
+</html>

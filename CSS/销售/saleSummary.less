@@ -1,0 +1,205 @@
+@r: 16rem;
+body {
+    background: #F1F1F1;
+}
+
+.wrap-summary {
+    display: block;
+}
+.wrap-summary li{
+    width: 100%;
+    color: black;
+    font-size: 11/@r;
+    margin-bottom: 1/@r;
+    line-height: 33/@r;
+    height: 33/@r;
+    background: white;
+    display: flex;
+    display: -webkit-flex;
+    
+}
+
+.wrap-summary li div {
+    text-indent: 8/@r;
+}
+
+.wrap-summary li .date {
+//  background: lightblue;
+    flex-grow: 2;
+}
+.wrap-summary li .turnover {
+    flex-grow: 3;
+//  background: lightcoral;
+}
+.wrap-summary li .yieldRate {
+    flex-grow: 3;
+//  background: lightgoldenrodyellow;
+}
+
+
+.wrap-stores {
+    display: none;
+    color: #2C2C2C;
+}
+
+
+.searchBar {
+    margin: 10/@r 5/@r;
+    padding: 5/@r;
+    height: 16/@r;
+    line-height: 16/@r;
+    border-radius: 3/@r;
+    background: white;
+    font-size: 11/@r;
+}
+
+.searchBar .glyphicon-search {
+    padding-right: 3/@r;
+    height: 16/@r;
+    line-height: 16px;
+    
+   
+}
+
+.searchBar input {
+    color: #9A9B98;
+    width:205/@r;
+   
+}
+ .order {
+    width: 100%;
+    padding-bottom: 10/@r;
+    font-size: 11/@r;
+}
+
+ .order .glyphicon {
+    font-size: 9/@r;
+}
+
+.clearfix {
+    *zoom:1;
+}
+.clearfix:after{
+    display: block;
+    clear: both;    
+    content: "";
+}
+
+.order div{
+    text-align: center;
+    height: 18/@r;
+    line-height: 18/@r;
+    float: right;
+    background: #34CC92 ;
+    color:white;
+    width: 50/@r;
+    margin-right: 10/@r;
+    border-radius: 9/@r;
+}
+.order .active {
+    background: white;
+    color: #34CC92;
+    
+}
+.wrap-stores li,.wrap-goods li {
+    font-size: 12/@r;
+    background: white;
+    margin-bottom: 5/@r;
+}
+
+ li .store {
+    position: relative;
+    height: 32/@r;
+    line-height: 32/@r;
+    border-bottom: 2/@r solid #F1F1F1;
+}
+ li .store .glyphicon-star {
+    color: #e3d111;
+    position: absolute;
+    left: 10/@r;
+    line-height: 32/@r;
+    height: 32/@r;
+}
+
+ li .store .storeName {
+     position: absolute;
+     left: 34/@r;
+}
+
+li .store .glyphicon-chevron-right {
+    
+    position: absolute; 
+    right: 12/@r;
+    line-height: 32/@r;
+    height: 32/@r;
+}
+
+ li .detail {
+    display: flex;
+    display: -webkit-flex;
+    font-size: 10/@r;
+}
+ li .detail div{
+    flex-grow: 1;
+    padding: 10/@r 0 10/@r 10/@r;
+    
+}
+ li .detail p {
+    line-height: 18/@r;
+}
+
+.wrap-goods {
+    display: none;
+}
+.wrap-goods .searchBar  {
+    position: relative;
+}
+.wrap-goods .searchBar .glyphicon-barcode {
+    position: absolute;
+    right: 10/@r;
+    top: 6/@r;
+    height: 16/@r;
+    line-height: 16px;
+}
+
+.wrap-goods li .store .storeName {
+    position: absolute;
+     left: 10/@r;
+     right: 30/@r;
+     text-overflow: ellipsis;
+     white-space: nowrap;
+     overflow: hidden;
+}
+
+
+.bottomTab {
+    width: 100%;
+    height: 44/@r;
+    line-height: 44/@r;
+    display: flex;
+    display: -webkit-flex;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    background: white;
+    font-size: 12/@r;
+}
+
+
+.bottomTab div {
+    color: white;
+    background: #34CC92;
+    flex-grow: 1;
+    box-sizing: border-box;
+    border-right: 1/@r solid white;
+
+}
+
+.bottomTab .active {
+    background: white;
+    color: #34CC92;
+}
+
+.bottomTab .right{
+    border-right:none;
+}

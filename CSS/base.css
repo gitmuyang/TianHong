@@ -4,7 +4,6 @@
 }
 
 body {
-	
 	/* 禁止选中文字 */
 	-webkit-user-select: none;
 	font-family: helvetica;
@@ -12,31 +11,53 @@ body {
 	-webkit-text-size-adjust: 100%;
 }
 
-a,input,button {
+a,
+input,
+button {
 	/* 去掉按下的阴影 */
-	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-input,button {
+input,
+button,
+select,
+textarea {
+	outline: none;
 	/* 去掉iOS 自带的圆角 */
 	-webkit-appearance: none;
 	border-radius: 0;
+}
+
+input {
+	border: none;
+}
+
+input[type=search] {
+	-webkit-appearance: textfield;
+	-webkit-box-sizing: content-box;
+	font-family: inherit;
+	font-size: 100%;
+}
+
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button {
+	display: none;
 }
 
 a {
 	text-decoration: none;
 }
 
-ul{
+ul {
 	margin: 0;
 	padding: 0;
 	list-style: none;
 }
-img{
+
+img {
 	vertical-align: top;
 }
 
-h1{
+h1 {
 	margin: 0;
 }
-
