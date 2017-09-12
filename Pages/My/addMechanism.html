@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,user-scalable=no" />
+		<title>添加绑定机构</title>
+		<link rel="stylesheet" href="../../CSS/base.css" />
+		<link rel="stylesheet" href="../../bs/css/bootstrap.css" />
+		<link rel="stylesheet" href="../../CSS/我的/switchMechanism.css" />
+		<script>
+			(function(){
+				var html = document.documentElement;
+				var hWidth = html.getBoundingClientRect().width;
+				html.style.fontSize = hWidth / 16 + "px";
+			})()
+			document.addEventListener("touchstart",function(e){
+//				e.preventDefault();
+			});
+		</script>
+	</head>
+	<body>
+		<div class="wrap">
+			<ul>
+				<li>
+					<input type="text" placeholder="机构名称" />
+					
+				</li>
+				<li>
+					<input type="text" placeholder="用户名" />
+				</li>
+				<li>
+					<input type="password" placeholder="密码" />
+				</li>
+			</ul>
+		</div>
+		<a class="bottom">
+			确定
+		</a>
+	</body>
+</html>

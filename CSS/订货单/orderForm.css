@@ -1,0 +1,173 @@
+body {
+  background: #F1F1F1;
+}
+.bottomTab {
+  width: 100%;
+  height: 2.75rem;
+  line-height: 2.75rem;
+  text-align: center;
+  background: white;
+  font-size: 0.75rem;
+}
+.bottomTab div {
+  color: white;
+  background: #34CC92;
+  float: left;
+  width: 50%;
+}
+.bottomTab .active {
+  background: white;
+  color: #34CC92;
+}
+.search {
+  margin: 0.625rem 0;
+  width: 100%;
+  height: 1.5rem;
+}
+.search .option {
+  width: 4.6875rem;
+  height: 1.5rem;
+  border: 0.0625rem solid #a9a9a9;
+  border-radius: 0.1875rem;
+  box-sizing: border-box;
+  margin: 0 0.3125rem 0 0.3125rem;
+  float: left;
+}
+.search .date {
+  position: relative;
+  width: 10.375rem;
+  background: white;
+  border-radius: 0.1875rem;
+  height: 1.5rem;
+  float: left;
+  font-size: 0.8125rem;
+}
+.search .date .glyphicon-search {
+  position: absolute;
+  left: 0.3125rem;
+  top: 0.3125rem;
+}
+.search .date .calendar {
+  position: absolute;
+  top: 0.3125rem;
+  left: 1.5625rem;
+}
+.wrap li {
+  background: white;
+  margin-bottom: 0.3125rem;
+  z-index: 1;
+}
+.store {
+  display: block;
+  height: 2.8125rem;
+  position: relative;
+  font-size: 0.625rem;
+  border-bottom: 0.0625rem solid #f1f1f1;
+}
+.store .check {
+  position: absolute;
+  left: -0.3125rem;
+  top: 0;
+  width: 2.625rem;
+  height: 2.625rem;
+  background: url(../../Images/销售确认/uncheck.png) 0.75rem 0.75rem no-repeat;
+  background-size: 1.125rem 1.125rem;
+  z-index: 2;
+}
+.store .ord {
+  position: absolute;
+  left: 2.1875rem;
+  padding-top: 0.3125rem;
+  line-height: 1.3125rem;
+  color: black;
+  font-size: 0.75rem;
+}
+.store .flag {
+  color: #D32828;
+  position: absolute;
+  top: -0.125rem;
+  right: -1.5625rem;
+}
+.store .name {
+  position: absolute;
+  left: 2.1875rem;
+  top: 1.3125rem;
+  padding-top: 0.3125rem;
+  color: darkgray;
+}
+.store .sendForm {
+  position: absolute;
+  right: 0.3125rem;
+  top: 0;
+  width: 3.75rem;
+  line-height: 2.8125rem;
+  color: #34CC92;
+  text-align: center;
+  font-size: 0.75rem;
+}
+.deadline {
+  height: 1.875rem;
+  position: relative;
+  font-size: 0.625rem;
+  color: black;
+}
+.deadline span {
+  float: left;
+  line-height: 1.875rem;
+  text-indent: 0.625rem;
+}
+.deadline .date {
+  float: right;
+  padding-right: 0.625rem;
+}
+.footer {
+  height: 2.25rem;
+  background: #34CC92;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.footer button {
+  line-height: 2.25rem;
+  font-size: 0.75rem;
+  color: white;
+}
+.footer #checkAll {
+  background: url(../../Images/销售确认/uncheck.png) 0.5625rem 0.5625rem no-repeat;
+  background-size: 1.125rem 1.125rem;
+  width: 40%;
+  text-align: left;
+  text-indent: 1.875rem;
+}
+.footer #confirm {
+  position: absolute;
+  width: 60%;
+  border-left: 1px solid white;
+  box-sizing: border-box;
+}
+.wrap-preorderForm li div {
+  height: 1.625rem;
+  line-height: 1.625rem;
+  font-size: 0.625rem;
+}
+.wrap-preorderForm li a {
+  color: black;
+}
+.wrap-preorderForm li div .left {
+  float: left;
+  padding-left: 0.625rem;
+}
+.wrap-preorderForm li div .right {
+  float: right;
+  padding-right: 0.625rem;
+}
+.wrap-preorderForm li div:nth-of-type(1) {
+  height: 2.1875rem;
+  line-height: 2.1875rem;
+  font-size: 0.75rem;
+  border-bottom: 0.0625rem solid #f1f1f1;
+}
+.wrap-preorderForm li .auditState {
+  color: #34CC92;
+}

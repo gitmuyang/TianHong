@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,user-scalable=no" />
+		<title>订货单明细</title>
+		<link rel="stylesheet" href="../../CSS/base.css" />
+		<link rel="stylesheet" href="../../CSS/订货单/orderFormDetail.css" /> 
+		<script>
+			(function(){
+				var html = document.documentElement;
+				var hWidth = html.getBoundingClientRect().width;
+				html.style.fontSize = hWidth / 16 + "px";
+			})()
+			document.addEventListener("touchstart",function(e){
+				e.preventDefault();
+			});
+		</script>
+	</head>
+	<body>
+		<div class="header">
+			<div class="ord">
+				<span>ORD-989170808000160</span>
+				<span class="right">发出采购单</span>
+			</div>
+			<div class="desc">
+				<div>
+					<p>订货单位</p>
+					<p>华南区</p>
+				</div>
+				<div>
+					<p>订货日期</p>
+					<p>2017-08-07</p>
+				</div>
+				<div>
+					<p>交货期限</p>
+					<p>2017-08-09</p>
+				</div>
+			</div>
+		<div class="recipientEntity">
+			收货单位：微喔便利海天路
+		</div>
+		</div>
+		<div class="wrap">
+			<ul>
+				<li>
+					<div class="snacks">奶露面包</div>
+					<div>
+						<div class="snackDesc">
+							<span class="left">订货数量：2.000000</span>
+							<span class="right">商品条码：6932037210012</span>
+						</div>
+						<div class="snackDesc">
+							<span class="left">包装数：24</span>
+							<span class="right">不含税进价：4.1026</span>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</body>
+</html>

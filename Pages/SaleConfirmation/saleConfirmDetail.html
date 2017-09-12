@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,user-scalable=no" />
+		<title>销售清单</title>
+		<link rel="stylesheet" href="../../CSS/base.css" />
+		<link rel="stylesheet" href="../../CSS/销售确认/saleConfirmDetail.css" />
+		<script>
+			(function() {
+				var html = document.documentElement;
+				var hWidth = html.getBoundingClientRect().width;
+				html.style.fontSize = hWidth / 16 + "px";
+			})()
+			document.addEventListener("touchstart", function(e) {
+				e.preventDefault();
+			});
+		</script>
+	</head>
+
+	<body>
+		<div class="header">
+			<div class="store">
+				<span class="name">南山店</span>
+				<span class="date">2017-08-23</span>
+				<span class="unconfirmed">未确认</span>
+			</div>
+			<div class="detail">
+				<p class="shoppeCode">
+					专柜/货区编码：212311153322
+				</p>
+				<p class="saleAmount">
+					销售金额：173564.00
+				</p>
+			</div>
+		</div>
+		<div class="wrap">
+			<ul>
+				<li>
+					<span>专柜名称</span>
+					<span>中山玛诗可少女装</span>
+				</li>
+				<li>
+					<span>折让金额</span>
+					<span>0.00</span>
+				</li>
+				<li>
+					<span>实收金额</span>
+					<span>173,564.00</span>
+				</li>
+				<li>
+					<span>卡积分获得</span>
+					<span>173564.0</span>
+				</li>
+				<li>
+					<span>银行卡消费</span>
+					<span>820.0</span>
+				</li>
+				<li>
+					<span>现金</span>
+					<span>12,000.00</span>
+				</li>
+				<li>
+					<span>储值卡消费</span>
+					<span>43543.00</span>
+				</li>
+				<li>
+					<span>线上应收金额</span>
+					<span>12,000.00</span>
+				</li>
+				<li>
+					<span>线上实收金额</span>
+					<span>12,000.00</span>
+				</li>
+				<li>
+					<span>确认人</span>
+					<span>自动获取系统/用户名称</span>
+				</li>
+				<li>
+					<span>确认时间</span>
+					<span>自动获取日期</span>
+				</li>
+			</ul>
+		</div>
+		<div class="footer">
+			确定
+		</div>
+	</body>
+	<script>
+		
+		var liArr = document.querySelectorAll("li");
+		var len = liArr.length;
+		for (var i = 0; i < len; i++) {
+			var oLi = liArr[i];
+			if (i % 2 != 0){
+				oLi.style.background = "#DDDEDD";
+			}
+		}
+	</script>
+</html>

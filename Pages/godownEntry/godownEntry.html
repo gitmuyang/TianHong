@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,user-scalable=no" />
+		<title>采购入库单</title>
+		<link rel="stylesheet" href="../../CSS/base.css" />
+		<link rel="stylesheet" href="../../bs/css/bootstrap.css" />
+		<link rel="stylesheet" href="../../CSS/采购入库单/godownEntry.css" />
+		<script>
+			(function() {
+				var html = document.documentElement;
+				var hWidth = html.getBoundingClientRect().width;
+				html.style.fontSize = hWidth / 16 + "px";
+			})()
+			document.addEventListener("touchstart", function(e) {
+				e.preventDefault();
+			});
+		</script>
+	</head>
+
+	<body>
+		<div class="date">
+			<span class="glyphicon glyphicon-search"></span>
+			<select class="calendar">
+				<option value="x">年</option>
+				<option value="y">月</option>
+				<option value="z">日</option>
+			</select>
+		</div>
+		<div class="wrap">
+			<ul>
+				<li>
+					<a href="godownEntryDetail.html">
+						<div class="topDesc">
+							<div class="left ord">
+								<span class="code">ORD-989170808000160</span>
+								<span class="flag">new</span>
+							</div>	
+						</div>
+						<div>
+							<span class="left">入库时间</span>
+							<span class="right">2017-08-07</span>
+						</div>
+						<div>
+							<span class="left">收货单位</span>
+							<span class="right">深圳坂田天虹</span>
+						</div>
+						<div>
+							<span class="left">关联订货单号</span>
+							<span class="right">ORD-9891708080001122</span>
+						</div>
+					</a>
+				</li>
+				
+
+			</ul>
+		</div>
+
+	</body>
+
+</html>

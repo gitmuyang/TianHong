@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,user-scalable=no" />
+		<title>退厂单明细</title>
+		<link rel="stylesheet" href="../../CSS/base.css" />
+		<link rel="stylesheet" href="../../bs/css/bootstrap.css" />
+		<link rel="stylesheet" href="../../CSS/退厂单/cancelFormDetail.css" />
+		<script>
+			(function(){
+				var html = document.documentElement;
+				var hWidth = html.getBoundingClientRect().width;
+				html.style.fontSize = hWidth / 16 + "px";
+			})()
+			document.addEventListener("touchstart",function(e){
+				e.preventDefault();
+			});
+		</script>
+	</head>
+	<body>
+		<div class="header">
+			<div class="ord">
+				<span>ORD-989170808000160</span>
+				<span class="right">已一审</span>
+			</div>
+		<div class="recipientEntity">
+			<p>退厂日期：2017-08-07</p>
+			<p>退厂单位：江西爱神无限贸易发展有限公司</p>
+		</div>
+		</div>
+		<div class="wrap">
+			<ul>
+				<li>
+					<div class="snacks">奶露面包</div>
+					<div>
+						<div class="snackDesc">
+							<span class="left">退厂数量：2.000000</span>
+							<span class="right">商品条码：6932037210012</span>
+						</div>
+						<div class="snackDesc">
+							<span class="left">退厂金额：24</span>
+							<span class="right">不含税进价：4.1026</span>
+						</div>
+						<div class="cancelReason">
+							退厂原因：销量太差。
+						</div>
+					</div>
+				</li>
+				
+			</ul>
+		</div>
+	</body>
+
+</html>

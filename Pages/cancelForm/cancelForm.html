@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,user-scalable=no" />
+		<title>退厂单</title>
+		<link rel="stylesheet" href="../../CSS/base.css" />
+		<link rel="stylesheet" href="../../bs/css/bootstrap.css" />
+		<link rel="stylesheet" href="../../CSS/退厂单/cancelForm.css" />
+		<script>
+			(function() {
+				var html = document.documentElement;
+				var hWidth = html.getBoundingClientRect().width;
+				html.style.fontSize = hWidth / 16 + "px";
+			})()
+			document.addEventListener("touchstart", function(e) {
+				e.preventDefault();
+			});
+		</script>
+	</head>
+
+	<body>
+		<div class="search">
+			<select class="option">
+				<option value="x">全部</option>
+				<option value="y">已一审</option>
+				<option value="y">已二审</option>
+				<option value="y">未审核</option>
+				<option value="y">已作废</option>
+			</select>
+			<div class="date">
+				<span class="glyphicon glyphicon-search"></span>
+				<select class="calendar">
+					<option value="x">年</option>
+					<option value="y">月</option>
+					<option value="z">日</option>
+				</select>
+			</div>
+		</div>
+		<div class="wrap">
+			<ul>
+				<li>
+					<a href="cancelFormDetail.html">
+						<div class="topDesc">
+							<div class="left ord">
+								<span class="code">ORD-989170808000160</span>
+								<span class="flag">new</span>
+							</div>
+							<span class="right reviewed">已一审</span>
+						</div>
+						<div>
+							<span class="left">退厂日期</span>
+							<span class="right">2017-08-07</span>
+						</div>
+						<div>
+							<span class="left">退厂单位</span>
+							<span class="right">江西某某公司</span>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="cancelFormDetail.html">
+						<div class="topDesc">
+							<div class="left ord">
+								<span class="code">ORD-989170808000160</span>
+								<span class="flag">new</span>
+							</div>
+							<span class="right unreviewed">已一审</span>
+						</div>
+						<div>
+							<span class="left">退厂日期</span>
+							<span class="right">2017-08-07</span>
+						</div>
+						<div>
+							<span class="left">退厂单位</span>
+							<span class="right">江西某某公司</span>
+						</div>
+					</a>
+				</li>
+			
+			</ul>
+		</div>
+
+	</body>
+
+</html>

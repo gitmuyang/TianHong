@@ -28,8 +28,9 @@ textarea {
 	border-radius: 0;
 }
 
-input {
+input,button {
 	border: none;
+	background: none;
 }
 
 input[type=search] {
@@ -60,4 +61,44 @@ img {
 
 h1 {
 	margin: 0;
+}
+
+
+
+
+
+/*    
+ 	定制内容    排序
+ * */
+.order {
+  width: 100%;
+  padding-bottom: 0.625rem;
+  font-size: 0.6875rem;
+}
+.order .glyphicon {
+  font-size: 0.5625rem;
+}
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:after {
+  display: block;
+  clear: both;
+  content: "";
+}
+.order div {
+  text-align: center;
+  height: 1.125rem;
+  line-height: 1.125rem;
+  float: right;
+  background: white;
+  color: #34CC92;
+  width: 3.125rem;
+  margin-right: 0.625rem;
+  border-radius: 0.5625rem;
+}
+.order .active {
+  
+  background: #34CC92 ;
+  color: white;
 }

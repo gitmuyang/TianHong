@@ -12,18 +12,18 @@
     			html.style.fontSize = hWidth / 16 + "px";
     		})()
     		document.addEventListener("touchstart",function(e){
-    			e.preventDefault();
+//  			e.preventDefault();
     		});
     	</script>
-    <link rel="stylesheet" href="../CSS/base.css" />
     <link rel="stylesheet" href="../bs/css/bootstrap.css" />
+    <link rel="stylesheet" href="../CSS/base.css" />
     <link rel="stylesheet" href="../CSS/mainPage.css">
     	
 </head>
 <body>
     <div class="topPart">
         <div id="sales">
-        		<a id="tip">
+        		<a href="Stock/stock.html" id="tip">
         			  库存预警：您的商品库存接近警戒值，请尽快补货！
         			<span id="close" class="glyphicon glyphicon-remove-circle"></span>
         		</a>
@@ -54,43 +54,51 @@
         <div class="rows">
             <div class="item">
                 <a href="Sales/saleSummary.html">销售</a>
-                <span class="badge"></span>
+                <span class="badge">1</span>
             </div>
             <div class="item">
-                <a href="#">补货</a>
-                <span class="badge"></span>
+                <a href="RealtimeSales/realtimeSales.html">实时销售</a>
+                <span class="badge">2</span>
             </div>
             <div class="item">
-                <a href="#">库存</a>
-                <span class="badge"></span>
+                <a href="SaleConfirmation/saleConfirm.html">销售确认</a>
+                <span class="badge">3</span>
             </div>
-            <div class="item">
-                <a href="#">促销</a>
-                <span class="badge"></span>
-            </div>
+            
         </div>
         <div class="rows">
             <div class="item">
-                <a href="#">订货单</a>
-                <span class="badge"></span>
+                <a href="OrderForm/orderForm.html">订货单</a>
+                <span class="badge">7</span>
             </div>
             <div class="item">
-                <a href="#">送货预约单</a>
-                <span class="badge"></span>
+                <a href="cancelForm/cancelForm.html">退厂单</a>
+                <span class="badge">5</span>
             </div>
             <div class="item">
-                <a href="#">退厂单</a>
-                <span class="badge"></span>
+                <a href="godownEntry/godownEntry.html">采购入库单</a>
+                <span class="badge">9</span>
             </div>
-            <div class="item">
-                <a href="#">采购入库单</a>
-                <span class="badge"></span>
+        </div>
+        <div class="rows">
+        		<div class="item">
+        			<a href="statements/statements.html">结算单</a>
+        			<span class="badge">2</span>
+        		</div>
+        		<div class="item">
+        			<a href="PromotionForm/promotionForm.html">促销单</a>
+        			<span class="badge">2</span>
+        		</div>
+        		 <div class="item">
+                <a href="Stock/stock.html">库存</a>
+                <span class="badge">4</span>
             </div>
+     
         </div>
     </div>
     <div class="bottomPart">
         <a id="main">首页</a>
-        <a href="myInfo.html" class="active" id="mine">我的</a>
+        <a href="My/myInfo.html" class="active" id="mine">我的</a>
     </div>
 </body>
 </html>

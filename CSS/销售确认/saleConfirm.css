@@ -1,0 +1,125 @@
+body {
+  background: #F1F1F1;
+}
+.header {
+  margin: 0.3125rem 0.25rem 1rem 0.25rem;
+  height: 1.5rem;
+}
+.calendar,
+.storeCode,
+.counterCode {
+  background: white;
+  border: none;
+  height: 1.5rem;
+  text-indent: 0.3125rem;
+  border-radius: 0.3125rem;
+  float: left;
+  font-size: 0.6875rem;
+}
+.calendar {
+  width: 3.75rem;
+  margin-right: 0.25rem;
+}
+.storeCode {
+  width: 7.5rem;
+  margin-right: 0.25rem;
+}
+.counterCode {
+  width: 3.75rem;
+}
+.wrap li {
+  background: white;
+  margin-bottom: 0.3125rem;
+}
+.store {
+  display: block;
+  height: 2.625rem;
+  position: relative;
+  font-size: 0.75rem;
+  border-bottom: 0.0625rem solid #f1f1f1;
+}
+.store .check {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 2.625rem;
+  height: 2.625rem;
+  background: url(../../Images/销售确认/uncheck.png) 0.75rem 0.75rem no-repeat;
+  background-size: 1.125rem 1.125rem;
+}
+.store .right {
+  position: absolute;
+  left: 2.625rem;
+  right: 0;
+  height: 2.625rem;
+}
+.store .name {
+  position: absolute;
+  left: 0;
+  top: 0rem;
+  padding-top: 0.3125rem;
+  color: black;
+}
+.store .date {
+  position: absolute;
+  color: darkgrey;
+  left: 0;
+  top: 1.3125rem;
+  padding-top: 0.1875rem;
+}
+.store .unconfirmed {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 3.75rem;
+  line-height: 2.625rem;
+  color: #34CC92;
+  text-align: center;
+}
+.detail {
+  display: block;
+  height: 2rem;
+  position: relative;
+  font-size: 0.625rem;
+  color: black;
+}
+.detail p {
+  float: left;
+  line-height: 2rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.detail .shoppeCode {
+  width: 55%;
+  text-indent: 0.625rem;
+}
+.detail .saleAmount {
+  width: 42%;
+  text-align: right;
+}
+.footer {
+  height: 2.25rem;
+  background: white;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.footer button {
+  line-height: 2.25rem;
+  font-size: 0.75rem;
+}
+.footer #checkAll {
+  background: url(../../Images/销售确认/uncheck.png) 0.5625rem 0.5625rem #fff0f5 no-repeat;
+  background-size: 1.125rem 1.125rem;
+  width: 60%;
+  text-align: left;
+  text-indent: 1.875rem;
+}
+.footer #confirm {
+  background: #34CC92;
+  color: white;
+  position: absolute;
+  width: 40%;
+}

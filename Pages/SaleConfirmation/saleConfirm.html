@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,user-scalable=no" />
+		<title>销售确认</title>
+		<link rel="stylesheet" href="../../CSS/base.css" />
+		<link rel="stylesheet" href="../../bs/css/bootstrap.css" />
+		<link rel="stylesheet" href="../../CSS/销售确认/saleConfirm.css" />
+		<script>
+			(function() {
+				var html = document.documentElement;
+				var hWidth = html.getBoundingClientRect().width;
+				html.style.fontSize = hWidth / 16 + "px";
+			})()
+			document.addEventListener("touchstart", function(e) {
+				e.preventDefault();
+			});
+		</script>
+	</head>
+
+	<body>
+		<div class="header">
+			<select class="calendar" name="cars">
+				<option value="volvo">年</option>
+				<option value="saab">月</option>
+				<option value="fiat">日</option>
+			</select>
+			<input class="storeCode" type="text" placeholder="门店编码、名称" />
+			<input class="counterCode" type="text" placeholder="专柜编码" />
+		</div>
+		<div class="wrap">
+			<ul>
+				<li>
+					<div class="store">
+						<button class="check"></button>
+						<a class="right" href="saleConfirmDetail.html">
+							<span class="name">南山店</span>
+							<span class="date">2017-08-23</span>
+							<span class="unconfirmed">未确认</span>
+						</a>
+					</div>
+					<a href="saleConfirmDetail.html" class="detail">
+						<p class="shoppeCode">
+							专柜编码：212311153322
+						</p>
+						<p class="saleAmount">
+							销售金额：173564.00
+						</p>
+					</a>
+				</li>
+				<li>
+					<div class="store">
+						<button class="check"></button>
+						<a class="right" href="saleConfirmDetail.html">
+							<span class="name">南山店</span>
+							<span class="date">2017-08-23</span>
+							<span class="unconfirmed">未确认</span>
+						</a>
+					</div>
+					<a href="saleConfirmDetail.html" class="detail">
+						<p class="shoppeCode">
+							专柜编码：212311153322
+						</p>
+						<p class="saleAmount">
+							销售金额：173564.00
+						</p>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="footer">
+			<button id="checkAll">全选</button>
+			<button id="confirm">销售确认</button>
+		</div>
+	</body>
+	<script>
+		var checkBtn = document.querySelector(".check");
+		checkBtn.addEventListener("touchstart", function() {
+			console.log("点击了。。。");
+		})
+	</script>
+
+</html>

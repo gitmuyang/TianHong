@@ -1,0 +1,83 @@
+body {
+  background: #EFEFEF;
+}
+.header {
+  background: #34CC92;
+  color: white;
+}
+.store {
+  display: block;
+  height: 2.625rem;
+  position: relative;
+  font-size: 0.75rem;
+  border-bottom: 0.0625rem solid #f1f1f1;
+}
+.store .name {
+  position: absolute;
+  left: 0.625rem;
+  top: 0rem;
+  padding-top: 0.3125rem;
+}
+.store .date {
+  position: absolute;
+  left: 0.625rem;
+  top: 1.3125rem;
+  padding-top: 0.1875rem;
+}
+.store .unconfirmed {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 3.75rem;
+  line-height: 2.625rem;
+  text-align: center;
+}
+.detail {
+  display: block;
+  height: 1.875rem;
+  position: relative;
+  font-size: 0.5625rem;
+}
+.detail p {
+  float: left;
+  line-height: 1.875rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.detail .shoppeCode {
+  width: 60%;
+  text-indent: 0.625rem;
+}
+.detail .saleAmount {
+  width: 38%;
+  text-align: right;
+}
+.wrap {
+  color: black;
+  font-size: 0.75rem;
+}
+.wrap li {
+  height: 1.875rem;
+  line-height: 1.875rem;
+  padding-right: 0.3125rem;
+}
+.wrap li span:nth-of-type(1) {
+  text-indent: 0.625rem;
+  float: left;
+}
+.wrap li span:nth-of-type(2) {
+  float: right;
+}
+.footer {
+  font-size: 0.75rem;
+  height: 2.25rem;
+  line-height: 2.25rem;
+  color: white;
+  background: #34CC92;
+  position: absolute;
+  text-align: center;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}

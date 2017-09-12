@@ -1,38 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 	<head>
-		<meta charset="UTF-8" />
+		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width,user-scalable=no" />
-		<title>Rainbow</title>
+		<title></title>
+		<link rel="stylesheet" href="CSS/base.css" />
+		<link rel="stylesheet" href="bs/css/bootstrap.css" />
+		<link rel="stylesheet" href="CSS/销售确认/index.css" />
 		<script>
+			(function() {
+				var html = document.documentElement;
+				var hWidth = html.getBoundingClientRect().width;
+				html.style.fontSize = hWidth / 16 + "px";
+			})()
+			document.addEventListener("touchstart", function(e) {
+				//				e.preventDefault();
+			});
 		</script>
-		<style>
-			body{
-				margin: 0;
-			}
-			#main {
-				width: 320px;
-				height: 100px;
-				/*border: 1px solid #c3c3c3;*/
-				display: flex;
-			}
-			
-			#main div {
-				flex-grow: 1;
-			}
-			
-			
-		</style>
 	</head>
 
 	<body>
-		<div id="main">
-			<div style="background-color:coral;">12</div>
-			<div style="background-color:lightblue;">12</div>
-			<div style="background-color:khaki;">12</div>
-			<div style="background-color:pink;">12</div>
-			<div style="background-color:lightgrey;">12</div>
+		<div class="logo">
+			<img src="Images/登录/logo.png" />
+		</div>
+		<div class="content">
+			<div class="number">
+				<input type="text" placeholder="供应商编号" />
+			</div>
+			<div class="acc">
+				<input type="text" placeholder="账号"/>
+			</div>
+			<div class="pwd">
+				<input type="text" placeholder="密码"/>
+			</div>
+			<a href="Pages/mainPage.html" class="login">
+				登 录
+			</a>
 		</div>
 	</body>
 

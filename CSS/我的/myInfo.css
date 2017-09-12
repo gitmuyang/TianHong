@@ -2,7 +2,7 @@ body {
   background: #F1F1F1;
 }
 .top {
-  background: #D32828;
+  background: #34CC92;
   padding: 0.625rem;
   text-align: center;
 }
@@ -11,7 +11,7 @@ body {
   width: 4rem;
   height: 4rem;
   border-radius: 2rem;
-  background: url(../Images/我的信息/icon.png) #ffffff no-repeat;
+  background: url(../../Images/我的信息/icon.png) #ffffff no-repeat;
   background-size: 60% 60%;
   background-position: 50% 40%;
 }
@@ -33,29 +33,22 @@ body {
   height: 2.0625rem;
 }
 .content li:nth-of-type(1) {
-  background: #ffffff url(../Images/我的信息/account.png) no-repeat;
+  background: #ffffff url(../../Images/我的信息/account.png) no-repeat;
   background-position: 0.46875rem 0.46875rem;
   background-size: 1.125rem 1.125rem;
 }
 .content li:nth-of-type(2) {
-  background: #ffffff url(../Images/我的信息/phone.png) no-repeat;
+  background: #ffffff url(../../Images/我的信息/store.png) no-repeat;
   background-position: 0.46875rem 0.46875rem;
   background-size: 1.125rem 1.125rem;
 }
 .content li:nth-of-type(3) {
-  background: #ffffff url(../Images/我的信息/store.png) no-repeat;
+  background: #ffffff url(../../Images/我的信息/exchange.png) no-repeat;
   background-position: 0.46875rem 0.46875rem;
   background-size: 1.125rem 1.125rem;
 }
-.content li:nth-of-type(4) {
-  background: #ffffff url(../Images/我的信息/exchange.png) no-repeat;
-  background-position: 0.46875rem 0.46875rem;
-  background-size: 1.125rem 1.125rem;
-}
-.content li:nth-of-type(5) {
-  background: #ffffff url(../Images/我的信息/feedback.png) no-repeat;
-  background-position: 0.46875rem 0.46875rem;
-  background-size: 1.125rem 1.125rem;
+.content li a {
+  color: black;
 }
 .content li span {
   position: absolute;

@@ -1,0 +1,134 @@
+@r: 16rem;
+body {
+    background: #F1F1F1;
+}
+
+
+.wrap-stores {
+    color: #2C2C2C;
+}
+
+
+.searchBar {
+    position: relative;
+    margin: 10/@r 5/@r;
+    height: 24/@r;
+    line-height: 24/@r;
+    border-radius: 3/@r;
+    background: white;
+    font-size: 11/@r;
+}
+
+.searchBar .glyphicon-search {
+    position: absolute;
+    left: 5/@r;
+    top: 5/@r;
+    
+}
+
+.searchBar input {
+    position: absolute;
+    top: 5/@r;
+    left: 20/@r;
+    color: #9A9B98;
+    width:205/@r;
+   
+}
+
+
+.wrap-stores li,.wrap-goods li {
+    font-size: 12/@r;
+    background: white;
+    margin-bottom: 5/@r;
+}
+
+.wrap-stores .store {
+    position: relative;
+    border-bottom: 1/@r solid #F1F1F1;
+    line-height: 32/@r;
+    height: 32/@r;
+}
+
+.wrap-stores .store .glyphicon-star {
+    color: #e3d111;
+    position: absolute;
+    left: 10/@r;
+    line-height: 32/@r;
+    height: 32/@r;
+}
+
+.wrap-stores .store .storeName {
+     position: absolute;
+     left: 34/@r;
+}
+
+
+
+
+ li .detail {
+    display: flex;
+    display: -webkit-flex;
+    font-size: 10/@r;
+}
+ li .detail div{
+    flex-grow: 1;
+    padding: 10/@r 0 10/@r 10/@r;
+    
+}
+ li .detail p {
+    line-height: 18/@r;
+}
+
+.wrap-goods {
+    display: none;
+}
+
+.wrap-goods .searchBar .glyphicon-barcode {
+   position: absolute;
+   top: 6/@r;
+   right: 6/@r;
+
+}
+
+.wrap-goods .store {
+    padding: 10/@r;
+    border-bottom: 1/@r solid #F1F1F1;
+}
+
+.wrap-goods li .store .storeName {
+     text-overflow: ellipsis;
+     white-space: normal;
+}
+
+
+.bottomTab {
+    width: 100%;
+    height: 44/@r;
+    line-height: 44/@r;
+    display: flex;
+    display: -webkit-flex;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    background: white;
+    font-size: 12/@r;
+}
+
+
+.bottomTab div {
+    color: white;
+    background: #34CC92;
+    flex-grow: 1;
+    box-sizing: border-box;
+    border-right: 1/@r solid white;
+
+}
+
+.bottomTab .active {
+    background: white;
+    color: #34CC92;
+}
+
+.bottomTab .right{
+    border-right:none;
+}

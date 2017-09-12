@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,user-scalable=no" />
+		<title>结算单</title>
+		<link rel="stylesheet" href="../../CSS/base.css" />
+		<link rel="stylesheet" href="../../bs/css/bootstrap.css" />
+		<link rel="stylesheet" href="../../CSS/结算单/statements.css" />
+		<script>
+			(function() {
+				var html = document.documentElement;
+				var hWidth = html.getBoundingClientRect().width;
+				html.style.fontSize = hWidth / 16 + "px";
+			})()
+			document.addEventListener("touchstart", function(e) {
+				e.preventDefault();
+			});
+		</script>
+	</head>
+
+	<body>
+		<div class="search">
+			<select class="option">
+				<option value="x">全部</option>
+				<option value="y">已结算</option>
+				<option value="y">未结算</option>
+			</select>
+			<div class="searchBar">
+				<span class="glyphicon glyphicon-search"></span>
+				<input type="search" placeholder="会计区间" />
+			</div>
+		</div>
+		<div class="wrap">
+			<ul>
+				<li>
+					<div class="topDesc">
+						<span class="left">RET-989170808000160</span>
+						<span class="right">已结算</span>
+					</div>
+					<div>
+						<span class="left">会计期间</span>
+						<span class="right">201708</span>
+					</div>
+					<div class="grey">
+						<span class="left">法人</span>
+						<span class="right">曾都</span>
+					</div>
+					<div>
+						<span class="left">付款日期</span>
+						<span class="right">2017-08-07</span>
+					</div>
+					<div class="grey">
+						<span class="left">税率</span>
+						<span class="right">6%</span>
+					</div>
+					<div>
+						<span class="left">付款金额</span>
+						<span class="right">200,333,123.00</span>
+					</div>
+					<div class="grey">
+						<span class="left">价税合计</span>
+						<span class="right">200,333,123.00</span>
+					</div>
+					<div>
+						<span class="left">价外费用</span>
+						<span class="right">10.00</span>
+					</div>
+				</li>
+				<li>
+					<div class="topDesc">
+						<span class="left">RET-989170808000160</span>
+						<span class="right">已结算</span>
+					</div>
+					<div>
+						<span class="left">会计期间</span>
+						<span class="right">201708</span>
+					</div>
+					<div class="grey">
+						<span class="left">法人</span>
+						<span class="right">曾都</span>
+					</div>
+					<div>
+						<span class="left">付款日期</span>
+						<span class="right">2017-08-07</span>
+					</div>
+					<div class="grey">
+						<span class="left">税率</span>
+						<span class="right">6%</span>
+					</div>
+					<div>
+						<span class="left">付款金额</span>
+						<span class="right">200,333,123.00</span>
+					</div>
+					<div class="grey">
+						<span class="left">价税合计</span>
+						<span class="right">200,333,123.00</span>
+					</div>
+					<div>
+						<span class="left">价外费用</span>
+						<span class="right">10.00</span>
+					</div>
+				</li>
+			</ul>
+		</div>
+
+	</body>
+
+</html>

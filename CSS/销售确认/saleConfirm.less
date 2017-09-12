@@ -1,0 +1,151 @@
+@r:16rem;
+
+body{
+    background: #F1F1F1;
+}
+
+.header {
+   margin: 5/@r 4/@r 16/@r 4/@r;
+   height: 24/@r;
+}
+
+.calendar,.storeCode,.counterCode {
+    background: white;
+    border: none;
+    height: 24/@r;
+    text-indent: 5/@r;
+    border-radius: 5/@r;
+    float: left;
+    font-size: 11/@r;
+}
+
+.calendar {
+    width: 60/@r;
+    margin-right: 4/@r;
+}
+
+.storeCode {
+    width: 120/@r;
+    margin-right: 4/@r;
+}
+.counterCode {
+    width: 60/@r;
+}
+
+
+
+
+.wrap li {
+    background: white;
+    margin-bottom: 5/@r;
+}
+
+.store {
+    display: block;
+    height: 42/@r;
+    position: relative;
+    font-size: 12/@r;
+    border-bottom: 1/@r solid #F1F1F1;
+}
+
+.store .check {
+    position:  absolute;
+    left: 0;
+    top: 0;
+    width: 42/@r;
+    height: 42/@r;
+    background:url(../../Images/销售确认/uncheck.png) 12/@r 12/@r  no-repeat;
+    background-size: 18/@r 18/@r;
+}
+
+.store .right {
+    position: absolute;
+    left: 42/@r;
+    right: 0;
+    height: 42/@r;
+//  background: lightblue;
+}
+
+.store .name {
+    position: absolute;
+    left: 0;
+    top:0/@r;
+    padding-top:5/@r;
+    color: black;
+}
+
+.store .date {
+    position: absolute;
+    color: darkgrey;
+    left: 0;
+    top: 21/@r;
+    padding-top: 3/@r;
+}
+.store .unconfirmed {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 60/@r;
+    line-height: 42/@r;
+    color: #34CC92;
+    text-align: center; 
+}
+
+.detail {
+    display: block;
+    height: 32/@r;
+    position: relative;
+    font-size: 10/@r;
+    color: black;
+}
+
+.detail p {
+    float: left;
+    line-height: 32/@r;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    overflow:hidden;
+}
+.detail .shoppeCode {
+    width: 55%;
+//  background: lightblue;
+    text-indent: 10/@r;
+}
+
+.detail .saleAmount {
+   width: 42%;
+// background: lightcoral;
+   text-align: right;
+   
+}
+
+
+.footer {
+    height: 36/@r;
+    background: white;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.footer button {
+
+    line-height: 36/@r;
+    font-size: 12/@r;
+}
+
+.footer #checkAll {
+    background:url(../../Images/销售确认/uncheck.png) 9/@r 9/@r  lavenderblush no-repeat;
+    background-size: 18/@r 18/@r;
+    width: 60%;
+    text-align: left;
+    text-indent: 30/@r;
+}
+
+.footer #confirm {
+    background: #34CC92;
+    color: white;
+    position: absolute;
+    width: 40%;
+}

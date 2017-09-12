@@ -1,0 +1,64 @@
+body {
+  background: #34CC92;
+  color: white;
+  font-size: 0.75rem;
+}
+.logo {
+  margin-top: 3.125rem;
+  margin-bottom: 2.125rem;
+}
+.logo img {
+  display: block;
+  margin: 0 auto;
+  width: 11.25rem;
+  height: auto;
+}
+input::-webkit-input-placeholder {
+  /* WebKit browsers*/
+  color: white;
+}
+input:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18*/
+  color: white;
+}
+input::-moz-placeholder {
+  /* Mozilla Firefox 19+*/
+  color: white;
+}
+input:-ms-input-placeholder {
+  /* Internet Explorer 10+*/
+  color: white;
+}
+.content div,
+.content a {
+  display: block;
+  margin: 0.625rem auto;
+  width: 11.25rem;
+  height: 1.875rem;
+  line-height: 1.875rem;
+  border: 0.0625rem solid #ffffff;
+  border-radius: 0.9375rem;
+  background-size: 1.25rem 1.25rem;
+  background-position: 0.625rem 0.3125rem;
+}
+.content div input {
+  padding-left: 2.5rem;
+  width: 7.8125rem;
+  color: white;
+}
+.number {
+  background: url(../../Images/登录/build.png) no-repeat;
+}
+.acc {
+  background: url(../../Images/登录/person.png) no-repeat;
+}
+.pwd {
+  background: url(../../Images/登录/key.png) no-repeat;
+  margin-bottom: 1.25rem !important;
+}
+.login {
+  text-align: center;
+  color: #34CC92;
+  background: white;
+  font-size: 0.6875rem;
+}

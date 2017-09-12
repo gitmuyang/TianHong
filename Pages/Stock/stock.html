@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,user-scalable=no" />
+		<title>库存</title>
+		<link rel="stylesheet" href="../../CSS/base.css" />
+		<link rel="stylesheet" href="../../bs/css/bootstrap.css" />
+		<link rel="stylesheet" href="../../CSS/库存/stock.css" />
+		<script>
+			(function() {
+				var html = document.documentElement;
+				var hWidth = html.getBoundingClientRect().width;
+				html.style.fontSize = hWidth / 16 + "px";
+			})()
+			document.addEventListener("touchstart", function(e) {
+				e.preventDefault();
+			});
+		</script>
+		<script type="text/javascript" src="../../JS/销售/saleSummary.js"></script>
+	</head>
+
+	<body>
+		<div>
+			<div class="wrap wrap-stock show">
+				<ul>
+					<li>
+						<div class="goods">
+							<p class="name">鲁花 5S压榨一级花生油(沃尔玛)非转基因5L赠品装/非赠品装随机配送</p>
+							<p class="code">商品条码：6932037210012</p>
+						</div>
+						<div class="store">
+							<span class="glyphicon glyphicon-star"></span>
+							<span class="name">【南山店】</span>
+							<span class="limit">可销 25 天 / 库存 18 箱</span>
+						</div>
+					</li>
+					<li>
+						<div class="goods">
+							<p class="name">鲁花 5S压榨一级花生油(沃尔玛)非转基因5L赠品装/非赠品装随机配送</p>
+							<p class="code">商品条码：6932037210012</p>
+						</div>
+						<div class="store">
+							<span class="glyphicon glyphicon-star"></span>
+							<span class="name">【南山店】</span>
+							<span class="limit">可销 25 天 / 库存 18 箱</span>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="wrap wrap-stock">
+				<ul>
+					<li>
+						<div class="goods">
+							<p class="name">鲁花 5S压榨一级花生油(沃尔玛)非转基因5L赠品装/非赠品装随机配送</p>
+							<p class="code">商品条码：6932037210012</p>
+						</div>
+						<div class="store">
+							<span class="glyphicon glyphicon-star"></span>
+							<span class="name">【南山店】</span>
+							<span class="limit">可销 0 天 / 库存 0 箱</span>
+						</div>
+					</li>
+					<li>
+						<div class="goods">
+							<p class="name">鲁花 5S压榨一级花生油(沃尔玛)非转基因5L赠品装/非赠品装随机配送</p>
+							<p class="code">商品条码：6932037210012</p>
+						</div>
+						<div class="store">
+							<span class="glyphicon glyphicon-star"></span>
+							<span class="name">【南山店】</span>
+							<span class="limit">可销 1 天 / 库存 1 箱</span>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="wrap wrap-goods">
+				<div class="searchBar">
+					<span class="glyphicon glyphicon-search"></span>
+					<input type="search" placeholder="门店名称、编码模糊查询" />
+					<span class="glyphicon glyphicon-barcode"></span>
+				</div>
+				<ul>
+					<li>
+						<a href="goodsStoreStock.html">
+							<div class="goods">
+								<span class="name">鲁花 5S压榨一级花生油（沃尔玛）非转基因 5.436L赠品装/非赠品装随机配送</span>
+								<p class="code">商品条码：6932037210012</p>
+								<span class="glyphicon glyphicon-chevron-right"></span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="goodsStoreStock.html">
+							<div class="goods">
+								<span class="name">鲁花 5S压榨一级花生油（沃尔玛）非转基因 5.436L赠品装/非赠品装随机配送</span>
+								<p class="code">商品条码：6932037210012</p>
+								<span class="glyphicon glyphicon-chevron-right"></span>
+							</div>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="wrap wrap-stores">
+				<div class="searchBar">
+					<span class="glyphicon glyphicon-search"></span>
+					<input type="search" placeholder="门店名称、编码模糊查询" />
+				</div>
+				<ul>
+					<li>
+						<a href="storeGoodsStock.html">
+							<div class="store">
+								<span class="glyphicon glyphicon-star"></span>
+								<span class="storeName">南山店</span>
+								<span class="glyphicon glyphicon-chevron-right"></span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="storeGoodsStock.html">
+							<div class="store">
+								<span class="glyphicon glyphicon-star"></span>
+								<span class="storeName">蛇口店</span>
+								<span class="glyphicon glyphicon-chevron-right"></span>
+							</div>
+						</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="bottomTab">
+				<div class="active">库存过大</div>
+				<div>库存过小</div>
+				<div>商品</div>
+				<div class="right">门店</div>
+			</div>
+		</div>
+	</body>
+
+</html>

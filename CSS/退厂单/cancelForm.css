@@ -1,0 +1,86 @@
+body {
+  background: #F1F1F1;
+}
+.search {
+  margin: 0.625rem 0;
+  width: 100%;
+  height: 1.5rem;
+}
+.search .option {
+  width: 4.6875rem;
+  height: 1.5rem;
+  border: 0.0625rem solid #a9a9a9;
+  border-radius: 0.1875rem;
+  box-sizing: border-box;
+  margin: 0 0.3125rem 0 0.3125rem;
+  float: left;
+  text-indent: 0.625rem;
+}
+.search .date {
+  position: relative;
+  width: 10.375rem;
+  background: white;
+  border-radius: 0.1875rem;
+  height: 1.5rem;
+  float: left;
+  font-size: 0.8125rem;
+}
+.search .date .glyphicon-search {
+  position: absolute;
+  left: 0.3125rem;
+  top: 0.3125rem;
+}
+.search .date .calendar {
+  position: absolute;
+  top: 0.3125rem;
+  left: 1.5625rem;
+}
+.wrap li {
+  background: white;
+  margin-bottom: 0.3125rem;
+  z-index: 1;
+}
+.ord {
+  position: absolute;
+  padding-top: 0.3125rem;
+  line-height: 1.3125rem;
+  color: black;
+  font-size: 0.75rem;
+}
+.flag {
+  color: red;
+  position: absolute;
+  top: -0.125rem;
+  right: -1.5625rem;
+}
+.wrap li div {
+  height: 1.625rem;
+  line-height: 1.625rem;
+  font-size: 0.625rem;
+}
+.wrap li a {
+  color: black;
+}
+.wrap li div .left {
+  float: left;
+  padding-left: 0.625rem;
+}
+.wrap li div .right {
+  float: right;
+  padding-right: 0.625rem;
+}
+.wrap li .topDesc {
+  height: 2.1875rem;
+  line-height: 2.1875rem;
+  font-size: 0.75rem;
+  border-bottom: 0.0625rem solid #f1f1f1;
+}
+.wrap li .reviewed {
+  color: #34CC92;
+}
+.wrap li .unreviewed {
+  color: #AEAEB1;
+}
+.wrap li .revoked {
+  color: #C00043;
+}

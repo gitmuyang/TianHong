@@ -1,0 +1,87 @@
+body {
+  background: #F1F1F1;
+  font-size: 0.6875rem;
+}
+.wrap {
+  background: white;
+  padding: 0 0.8125rem;
+}
+.sheetOne,
+.sheetThree {
+  height: 1.875rem;
+  padding-top: 0.625rem;
+}
+.sheetOne .left,
+.sheetThree span {
+  display: inline-block;
+  width: 25%;
+  line-height: 1.875rem;
+  height: 1.875rem;
+  float: left;
+}
+.sheetOne .right {
+  display: inline-block;
+  width: 75%;
+  box-sizing: border-box;
+  border: 0.0625rem solid #a9a9a9;
+  border-radius: 0.1875rem;
+  line-height: 1.875rem;
+  height: 1.875rem;
+  background: #F6F6F6;
+  float: left;
+  text-indent: 0.625rem;
+}
+.sheetTwo {
+  height: 1.5625rem;
+  padding-top: 0.75rem;
+}
+.sheetTwo span {
+  display: inline-block;
+  width: 50%;
+  height: 1.5625rem;
+  line-height: 1.5625rem;
+  float: left;
+}
+.sheetTwo input {
+  display: inline-block;
+  float: left;
+  width: 50%;
+  background: white;
+  height: 1.5625rem;
+  line-height: 1.5625rem;
+  box-sizing: border-box;
+  border: 0.0625rem solid #a9a9a9;
+  border-radius: 0.1875rem;
+}
+.sheetThree select {
+  display: inline-block;
+  width: 36%;
+  box-sizing: border-box;
+  border: 0.0625rem solid #a9a9a9;
+  border-radius: 0.1875rem;
+  line-height: 1.875rem;
+  height: 1.875rem;
+  background: #F6F6F6;
+  float: left;
+  text-indent: 0.625rem;
+}
+.sheetThree .date {
+  background: white;
+  margin-right: 3%;
+}
+.summary {
+  display: flex;
+  display: -webkit-flex;
+}
+.summary span {
+  height: 2.125rem;
+  line-height: 2.125rem;
+  flex-grow: 1;
+}
+.divide {
+  border-bottom: 0.0625rem dashed #a9a9a9;
+}
+.ordDetail {
+  border-bottom: 0.0625rem solid #a9a9a9;
+  padding-bottom: 0.875rem;
+}

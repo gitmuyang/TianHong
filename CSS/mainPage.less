@@ -15,14 +15,14 @@ body{
 }
 
  #tip {
-     position: relative;
+    position: relative;
     background: #51D4A3;
     font-size: 10/@r;
     line-height: 20/@r;
     text-align: left;
     text-indent: 3/@r;
     display: block;
-    
+     color: white;
 }
 
  #close{
@@ -128,23 +128,47 @@ body{
 }
 
 .rows div {
-   
-    width: 50/@r;
-    height: 50/@r;
+    position: relative;
+    width: 45/@r;
+    height: 45/@r;
     box-sizing: border-box;
     border: 1px solid darkgrey;
     border-radius: 25/@r;
-    line-height: 50/@r; 
     background: white;
+    text-align: center;
+    display: table;
 }
 
 .rows div a {
-    display: block;  
+    display: table-cell;
+    vertical-align: middle;
     color: black;
     font-size: 9/@r;
-    text-align: center;   
+    padding: 5/@r;
+//  background: lightcoral; 
 }
 
+.rows div .badge {
+    position: absolute;
+    height: 8/@r;
+    min-width: 8/@r;
+    max-width: 25/@r;
+    padding: 1/@r; 
+    color: white;
+    border-radius: 5/@r;
+    top: 0/@r;
+    left: 38/@r;
+    font-size: 7/@r;
+    background: #D32828;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.rows .empty {
+ 
+    border: none;
+    background: #F1F1F1;
+}
 
 
 

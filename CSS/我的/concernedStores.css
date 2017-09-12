@@ -4,6 +4,7 @@ body {
   font-size: 0.75rem;
 }
 .wrap header {
+  display: none;
   height: 2.375rem;
   line-height: 2.375rem;
   text-indent: 0.625rem;

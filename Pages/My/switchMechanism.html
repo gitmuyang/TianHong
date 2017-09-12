@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,user-scalable=no" />
+		<title>切换机构</title>
+		<link rel="stylesheet" href="../../CSS/base.css" />
+		<link rel="stylesheet" href="../../bs/css/bootstrap.css" />
+		<link rel="stylesheet" href="../../CSS/我的/switchMechanism.css" />
+		<script>
+			(function(){
+				var html = document.documentElement;
+				var hWidth = html.getBoundingClientRect().width;
+				html.style.fontSize = hWidth / 16 + "px";
+			})()
+			document.addEventListener("touchstart",function(e){
+//				e.preventDefault();
+			});
+		</script>
+	</head>
+	<body>
+		<div class="wrap">
+			<ul>
+				<li>
+					<div class="company">
+						<div class="name">
+							<p class="title">天虹商场股份有限公司</p>
+							<p class="subTitle">rainbow</p>
+						</div>
+						<div class="check">
+							<span class="glyphicon glyphicon-check"></span>
+						</div>
+					</div>
+					
+				</li>
+				<li>
+					<div class="company">
+						<div class="name">
+							<p class="title">宝洁（中国）营销有限公司</p>
+							<p class="subTitle">302066</p>
+						</div>
+						<div class="check" style="display: none;">
+							<span class="glyphicon glyphicon-check"></span>
+						</div>						
+					</div>	
+				</li>
+				<li>
+					<a href="addMechanism.html" class="addCompany">
+						<p>添加绑定机构</p>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<a class="bottom">
+			返 回
+		</a>
+	</body>
+</html>

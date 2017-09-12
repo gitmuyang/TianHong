@@ -1,0 +1,96 @@
+@r:16rem;
+body {
+    background: #EFEFEF;
+}
+.header {
+    background: #34CC92;
+    color: white;
+}
+
+.store {
+    display: block;
+    height: 42/@r;
+    position: relative;
+    font-size: 12/@r;
+    border-bottom: 1/@r solid #F1F1F1;
+}
+
+
+.store .name {
+    position: absolute;
+    left: 10/@r;
+    top:0/@r;
+    padding-top:5/@r;
+}
+
+.store .date {
+    position: absolute;
+    left: 10/@r;
+    top: 21/@r;
+    padding-top: 3/@r;
+}
+.store .unconfirmed {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 60/@r;
+    line-height: 42/@r;
+    text-align: center; 
+}
+.detail {
+    display: block;
+    height: 30/@r;
+    position: relative;
+    font-size: 9/@r;
+}
+
+.detail p {
+    float: left;
+    line-height: 30/@r;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    overflow:hidden;
+}
+.detail .shoppeCode {
+    width: 60%;
+//  background: lightblue;
+    text-indent: 10/@r;
+}
+
+.detail .saleAmount {
+   width: 38%;
+// background: lightcoral;
+   text-align: right; 
+}
+
+.wrap {
+    color: black;
+    font-size: 12/@r;
+}
+
+.wrap li{
+    height: 30/@r;
+    line-height: 30/@r;
+    padding-right: 5/@r;
+}
+
+.wrap li span:nth-of-type(1){
+    text-indent: 10/@r;
+    float: left;
+}
+.wrap li span:nth-of-type(2){
+    float: right;
+}
+
+.footer {
+    font-size: 12/@r;
+    height: 36/@r;
+    line-height: 36/@r;
+    color: white;
+    background: #34CC92;
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}

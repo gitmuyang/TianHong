@@ -1,0 +1,57 @@
+body {
+  background: #EFEFEF;
+}
+.wrap {
+  margin-top: 0.625rem;
+}
+.wrap li {
+  height: 2.5rem;
+  border-bottom: 0.0625rem solid #d8d8d8;
+  background: white;
+}
+.wrap li .name {
+  padding-top: 0.5rem;
+  padding-left: 1.25rem;
+  float: left;
+  line-height: 0.9375rem;
+}
+.wrap li .check {
+  float: right;
+  width: 1.875rem;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  color: lightblue;
+}
+.wrap li .name .title {
+  font-size: 0.75rem;
+  color: black;
+}
+.wrap li .name .subTitle {
+  font-size: 0.625rem;
+  color: #737377;
+}
+.wrap .addCompany {
+  font-size: 0.75rem;
+  color: #34CC92;
+  border-bottom: none;
+  line-height: 2.5rem;
+  text-align: center;
+}
+.bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 2.25rem;
+  line-height: 2.25rem;
+  background: #34CC92;
+  color: white;
+  font-size: 0.75rem;
+  text-align: center;
+}
+.wrap input {
+  text-indent: 1.25rem;
+  font-size: 0.75rem;
+  line-height: 2.5rem;
+  width: 95%;
+}

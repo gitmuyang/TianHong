@@ -1,0 +1,74 @@
+body {
+  background: #EFEFEF;
+}
+.header {
+  background: #34CC92;
+  color: white;
+  margin-bottom: 0.5rem;
+}
+.header .name {
+  font-size: 0.75rem;
+  height: 1.875rem;
+  padding: 0.625rem;
+  border-bottom: 0.0625rem solid #ffffff;
+}
+.header .code {
+  height: 1.875rem;
+  line-height: 1.875rem;
+  padding-left: 0.625rem;
+  font-size: 0.625rem;
+}
+.order {
+  width: 100%;
+  padding-bottom: 0.5rem;
+  font-size: 0.5625rem;
+}
+.order .glyphicon {
+  font-size: 0.5625rem;
+}
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:after {
+  display: block;
+  clear: both;
+  content: "";
+}
+.order div {
+  padding: 0 0.3125rem;
+  width: auto;
+  text-align: center;
+  height: 1.125rem;
+  line-height: 1.125rem;
+  float: right;
+  background: white;
+  color: #34CC92;
+  margin-right: 0.625rem;
+  border-radius: 0.5625rem;
+}
+.order .active {
+  background: #34CC92 ;
+  color: white;
+}
+.wrap li {
+  margin-bottom: 0.5625rem;
+  font-size: 0.6875rem;
+}
+.wrap li div {
+  padding: 0 0.625rem;
+  margin-bottom: 0.0625rem;
+  height: 1.875rem;
+  line-height: 1.875rem;
+  background: white;
+}
+.wrap li div .left {
+  float: left;
+}
+.wrap li div .right {
+  float: right;
+}
+.wrap li .glyphicon-star {
+  color: #E0CF0F;
+  padding-top: 0.5rem;
+  font-size: 0.875rem;
+}

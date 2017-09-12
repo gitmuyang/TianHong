@@ -3,9 +3,7 @@ window.onload = function() {
 }
 
 function switchDiv() {
-	var summary = document.querySelector(".wrap-summary");
-	var stores = document.querySelector(".wrap-stores");
-	var goods = document.querySelector(".wrap-goods");
+
 	var wraps = document.querySelectorAll(".wrap");
 
 	var bottomTab = document.querySelector(".bottomTab");

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,user-scalable=no" />
+		<title>商品门店库存</title>
+		<link rel="stylesheet" href="../../CSS/base.css" />
+		<link rel="stylesheet" href="../../bs/css/bootstrap.css" />
+		<link rel="stylesheet" href="../../CSS/库存/goodsStoreStock.css" />
+		<script>
+			(function() {
+				var html = document.documentElement;
+				var hWidth = html.getBoundingClientRect().width;
+				html.style.fontSize = hWidth / 16 + "px";
+			})()
+			document.addEventListener("touchstart", function(e) {
+				e.preventDefault();
+			});
+		</script>
+	</head>
+
+	<body>
+		<div class="header">
+			<p class="name">鲁花 5S压榨一级花生油（沃尔玛） 非转基因 5.436L赠品装/非赠品装随机配送</p>
+			<p class="code">商品条码：6932037210012</p>
+		</div>
+		<div class="order clearfix">
+			<div>库存 <span class="glyphicon glyphicon-arrow-down"></span></div>
+			<div class="active">可销天数 <span class="glyphicon glyphicon-arrow-up"></span></div>
+		</div>
+		<div class="wrap">
+			<ul>
+				<li>
+					<div>
+						<span class="left">南山店</span>
+						<span class="right glyphicon glyphicon-star"></span>
+					</div>
+					<div>
+						<span class="left">可销 25 天</span>
+						<span class="right">库存 18 箱</span>
+					</div>
+				</li>
+				<li>
+					<div>
+						<span class="left">蛇口店</span>
+						<span class="right glyphicon glyphicon-star"></span>
+					</div>
+					<div>
+						<span class="left">可销 25 天</span>
+						<span class="right">库存 18 箱</span>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</body>
+
+</html>

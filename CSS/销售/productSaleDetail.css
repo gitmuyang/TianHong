@@ -1,0 +1,68 @@
+body {
+  background: #F1F1F1;
+}
+.headerInfo {
+  background: #34CC92;
+  color: white;
+  font-size: 0.625rem;
+  margin-bottom: 0.625rem;
+}
+.wrap li {
+  font-size: 0.6875rem;
+  background: white;
+  margin-bottom: 0.3125rem;
+}
+.store {
+  position: relative;
+  border-bottom: 0.0625rem solid #f1f1f1;
+}
+li .store .storeName {
+  display: block;
+  padding: 0.625rem;
+  text-overflow: ellipsis;
+  white-space: normal;
+}
+.detail {
+  font-size: 0.625rem;
+  padding: 0.625rem;
+}
+.detail div {
+  float: left;
+  padding-bottom: 0.625rem;
+  -moz-box-sizing: border-box;
+  /*Firefox3.5+*/
+  -webkit-box-sizing: border-box;
+  /*Safari3.2+*/
+  -o-box-sizing: border-box;
+  /*Opera9.6*/
+  -ms-box-sizing: border-box;
+  /*IE8*/
+  box-sizing: border-box;
+  /*W3C标准(IE9+，Safari5.1+,Chrome10.0+,Opera10.6+都符合box-sizing的w3c标准语法)*/
+}
+.detail div:nth-of-type(1) {
+  width: 47%;
+}
+.detail div:nth-of-type(2) {
+  width: 53%;
+}
+.detail p {
+  line-height: 1.125rem;
+}
+.headerInfo .store {
+  line-height: 1.75rem;
+  height: 1.75rem;
+}
+.headerInfo .store .storeName {
+  position: absolute;
+  left: 0.625rem;
+  right: 1.875rem;
+}
+.headerInfo .store .glyphicon-star {
+  font-size: 0.875rem;
+  color: #E7FF33;
+  position: absolute;
+  right: 0.625rem;
+  line-height: 1.75rem;
+  height: 1.75rem;
+}

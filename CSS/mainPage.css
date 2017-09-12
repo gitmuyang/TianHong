@@ -16,6 +16,7 @@ body {
   text-align: left;
   text-indent: 0.1875rem;
   display: block;
+  color: white;
 }
 #close {
   display: block;
@@ -109,19 +110,41 @@ body {
   justify-content: space-around;
 }
 .rows div {
-  width: 3.125rem;
-  height: 3.125rem;
+  position: relative;
+  width: 2.8125rem;
+  height: 2.8125rem;
   box-sizing: border-box;
   border: 1px solid darkgrey;
   border-radius: 1.5625rem;
-  line-height: 3.125rem;
   background: white;
+  text-align: center;
+  display: table;
 }
 .rows div a {
-  display: block;
+  display: table-cell;
+  vertical-align: middle;
   color: black;
   font-size: 0.5625rem;
-  text-align: center;
+  padding: 0.3125rem;
+}
+.rows div .badge {
+  position: absolute;
+  height: 0.5rem;
+  min-width: 0.5rem;
+  max-width: 1.5625rem;
+  padding: 0.0625rem;
+  color: white;
+  border-radius: 0.3125rem;
+  top: 0rem;
+  left: 2.375rem;
+  font-size: 0.4375rem;
+  background: #D32828;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.rows .empty {
+  border: none;
+  background: #F1F1F1;
 }
 .bottomPart {
   position: absolute;

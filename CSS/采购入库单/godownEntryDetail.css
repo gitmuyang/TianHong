@@ -1,0 +1,50 @@
+body {
+  background: #F1F1F1;
+}
+.header {
+  background: #34CC92;
+  color: white;
+  font-size: 0.625rem;
+  margin-bottom: 0.625rem;
+}
+.header .ord {
+  font-size: 0.75rem;
+  padding: 0 0.625rem;
+  height: 2.25rem;
+  line-height: 2.25rem;
+  border-bottom: 0.0625rem solid #ffffff;
+  box-sizing: border-box;
+}
+.header .recipientEntity p {
+  height: 1.5625rem;
+  line-height: 1.5625rem;
+  text-indent: 0.3125rem;
+}
+.wrap li {
+  background: white;
+  color: #979997;
+  margin-bottom: 0.625rem;
+  font-size: 0.6875rem;
+}
+.wrap li .topDesc {
+  border-bottom: 0.0625rem solid #f1f1f1;
+  height: 1.75rem;
+  line-height: 1.75rem;
+}
+.wrap li .topDesc .left {
+  color: black;
+}
+.wrap li .snackDesc {
+  height: 1.5rem;
+  line-height: 1.5rem;
+}
+.wrap li .snackDesc span {
+  float: left;
+}
+.wrap li .snackDesc .left {
+  width: 45%;
+  text-indent: 0.3125rem;
+}
+.wrap li .snackDesc .right {
+  width: 55%;
+}

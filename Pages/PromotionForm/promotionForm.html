@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,user-scalable=no" />
+		<title>促销单</title>
+		<link rel="stylesheet" href="../../CSS/base.css" />
+		<link rel="stylesheet" href="../../bs/css/bootstrap.css" />
+		<link rel="stylesheet" href="../../CSS/促销单/promotionForm.css" />
+		<script>
+			(function() {
+				var html = document.documentElement;
+				var hWidth = html.getBoundingClientRect().width;
+				html.style.fontSize = hWidth / 16 + "px";
+			})()
+			document.addEventListener("touchstart", function(e) {
+				e.preventDefault();
+			});
+		</script>
+	</head>
+
+	<body>
+		<div class="header">
+			<input class="storeCode" type="text" placeholder="门店名称、编码模糊查询" />
+			<input class="counterCode" type="text" placeholder="会计区间" />
+		</div>
+		<div class="wrap">
+			<ul>
+				<li>
+					<div class="topDesc">
+						<div class="store">
+							<span class="storeName showAll">鲁花 5S压榨一级花生油（沃尔玛） 非转基因 5.436L
+						赠品装/非赠品装随机配送</span>
+						</div>
+						<div class="detail">
+							<div>
+								<span class="left">商品条码：6932037210012</span>
+								<span class="right">【吉安购物中心】</span>
+							</div>
+							<div>
+								<span class="left">会计期间：201708</span>
+							</div>
+						</div>
+					</div>
+					<div class="bottomDesc">
+						<div>
+							<span class="left">协议流水号</span>
+							<span class="right">ZYC-102170825005174</span>
+						</div>
+						<div class="grey">
+							<span class="left">实际销售数量</span>
+							<span class="right">9.00000</span>
+						</div>
+						<div>
+							<span class="left">折扣金额</span>
+							<span class="right">228.9900</span>
+						</div>
+						<div class="grey">
+							<span class="left">生效日期</span>
+							<span class="right">2017-08-24</span>
+						</div>
+						<div>
+							<span class="left">失效日期</span>
+							<span class="right">2017-08-31</span>
+						</div>
+					</div>
+				</li>
+			
+			</ul>
+			<!--<footer>上拉加载更多...</footer>-->
+		</div>
+	</body>
+
+</html>

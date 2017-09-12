@@ -1,0 +1,52 @@
+body {
+  background: #F1F1F1;
+}
+.headerInfo {
+  background: #34CC92;
+  color: white;
+  font-size: 0.625rem;
+  margin-bottom: 0.625rem;
+}
+.wrap li {
+  font-size: 0.6875rem;
+  background: white;
+  margin-bottom: 0.3125rem;
+}
+li .store {
+  position: relative;
+  border-bottom: 0.0625rem solid #f1f1f1;
+  line-height: 1.75rem;
+  height: 1.75rem;
+}
+li .store .storeName {
+  position: absolute;
+  left: 0.625rem;
+  right: 1.875rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.detail {
+  display: flex;
+  display: -webkit-flex;
+  font-size: 0.625rem;
+}
+.detail div {
+  flex-grow: 1;
+  padding: 0.625rem 0 0.625rem 0.625rem;
+}
+.detail p {
+  line-height: 1.125rem;
+}
+.headerInfo .store {
+  padding: 0.625rem;
+  border-bottom: 0.0625rem solid #f1f1f1;
+}
+li .store .glyphicon-star {
+  font-size: 0.875rem;
+  color: #E3D110;
+  position: absolute;
+  right: 0.625rem;
+  line-height: 1.75rem;
+  height: 1.75rem;
+}

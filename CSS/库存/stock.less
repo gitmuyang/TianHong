@@ -1,0 +1,206 @@
+@r:16rem;
+
+body{
+   background: #EFEFEF;
+}
+
+.wrap{
+    margin-top: 10/@r;
+    display: none;
+}
+.show {
+    display: block;
+}
+
+.wrap li{
+    color: black;
+    background: white;
+}
+.wrap-stock li {
+    
+    margin-bottom: 10/@r;
+}
+
+.wrap-stock li .goods{
+    border-bottom: 1/@r solid #EFEFEF;
+    padding: 0 10/@r;
+    
+}
+
+.wrap-stock li .goods .name {
+    font-size: 11/@r;
+    padding: 5/@r 0;
+}
+
+.wrap-stock li .goods .code {
+    font-size: 10/@r;
+    color: #868382;
+    line-height: 20/@r;
+}
+
+.wrap-stock li .store {
+    position: relative;
+    height: 32/@r;
+    line-height: 32/@r;
+    font-size: 10/@r;
+    padding: 0 10/@r;
+}
+
+.wrap-stock li .store .glyphicon-star {
+    position: absolute;
+    left: 10/@r;
+    top: 10/@r;
+    color: #DFCE0F;
+}
+.wrap-stock li .store .name{
+    float: left;
+    margin-left: 10/@r;
+}
+.wrap-stock li .store .limit {
+    float: right;
+}
+
+//商品
+ .searchBar {
+    position: relative;
+    margin: 10/@r 5/@r;
+    height: 24/@r;
+    line-height: 24/@r;
+    border-radius: 3/@r;
+    background: white;
+    font-size: 11/@r;
+}
+
+ .searchBar .glyphicon-search {
+    position: absolute;
+    left: 5/@r;
+    top: 5/@r;
+    
+}
+
+.searchBar input {
+    position: absolute;
+    top: 5/@r;
+    left: 20/@r;
+    color: #9A9B98;
+    width:205/@r;
+   
+}
+.wrap-goods .searchBar .glyphicon-barcode {
+   position: absolute;
+   top: 6/@r;
+   right: 6/@r;
+}
+
+
+.wrap-goods li {
+    height: 34/@r;
+    padding: 8/@r 0;
+    border-bottom: 1/@r solid #EFEFEF;
+
+}
+.wrap-goods li a {
+    color: black;
+}
+
+.wrap-goods .goods {
+    position: relative;
+}
+
+.wrap-goods .goods .name {
+    position: absolute;
+    top: 0;
+    left: 10/@r;
+    right: 34/@r;
+    font-size: 11/@r;
+     text-overflow: ellipsis;
+     white-space: nowrap;
+     overflow: hidden;       
+}
+.wrap-goods .goods .code{
+    position: absolute;
+    left: 10/@r;
+    right: 34/@r;
+    top: 20/@r;
+    font-size: 10/@r;
+    color: #868382;
+}
+.wrap-goods .goods .glyphicon-chevron-right {
+    position: absolute;
+    line-height: 34/@r;
+    width: 34/@r;
+    text-align: center;
+    right: 0;
+}
+
+
+//门店
+.wrap-stores li {
+    font-size: 12/@r;
+    background: white;
+}
+.wrap-stores li a {
+    color: black;
+}
+.wrap-stores li .store {
+    position: relative;
+    height: 32/@r;
+    line-height: 32/@r;
+    border-bottom: 1/@r solid #EFEFEF;
+}
+
+
+
+.wrap-stores li .store .glyphicon-star {
+    color: #e3d111;
+    position: absolute;
+    left: 10/@r;
+    line-height: 32/@r;
+    height: 32/@r;
+}
+
+.wrap-stores li .store .storeName {
+     position: absolute;
+     left: 34/@r;
+}
+
+.wrap-stores li .store .glyphicon-chevron-right {
+    
+    position: absolute; 
+    right: 12/@r;
+    line-height: 32/@r;
+    height: 32/@r;
+}
+
+
+
+//底部tab栏
+.bottomTab {
+    width: 100%;
+    height: 44/@r;
+    line-height: 44/@r;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    background: white;
+    font-size: 12/@r;
+}
+
+
+.bottomTab div {
+    float: left;
+    color: white;
+    background: #34CC92;
+    width: 25%;
+    box-sizing: border-box;
+    border-right: 1/@r solid white;
+}
+
+.bottomTab .active {
+    background: white;
+    color: #34CC92;
+}
+
+.bottomTab .right{
+    border-right:none;
+}

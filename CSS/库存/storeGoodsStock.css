@@ -1,0 +1,102 @@
+body {
+  background: #EFEFEF;
+}
+.header {
+  background: #34CC92;
+  color: white;
+  line-height: 1.6875rem;
+  font-size: 0.75rem;
+  margin-bottom: 0.625rem;
+}
+.store {
+  padding: 0 0.625rem;
+  border-bottom: 0.0625rem solid #ffffff;
+  height: 1.6875rem;
+}
+.store .left {
+  float: left;
+}
+.store .right {
+  float: right;
+}
+.store .glyphicon-star {
+  color: #E7FF33;
+  padding-top: 0.5rem;
+  font-size: 0.875rem;
+}
+.header .money {
+  padding: 0 0.625rem;
+  font-size: 0.625rem;
+}
+.order {
+  width: 100%;
+  padding-bottom: 0.5rem;
+  font-size: 0.5625rem;
+}
+.order .glyphicon {
+  font-size: 0.5625rem;
+}
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:after {
+  display: block;
+  clear: both;
+  content: "";
+}
+.order div {
+  padding: 0 0.3125rem;
+  width: auto;
+  text-align: center;
+  height: 1.125rem;
+  line-height: 1.125rem;
+  float: right;
+  background: white;
+  color: #34CC92;
+  margin-right: 0.625rem;
+  border-radius: 0.5625rem;
+}
+.order .active {
+  background: #34CC92 ;
+  color: white;
+}
+.wrap li .desc {
+  padding: 0.1875rem 0.625rem 0.3125rem;
+  margin-bottom: 0.0625rem;
+  height: 1.875rem;
+  line-height: 1.0625rem;
+  background: white;
+  font-size: 0.625rem;
+}
+.wrap li .desc .left {
+  float: left;
+}
+.wrap li .desc .right {
+  width: 5.625rem;
+  margin-top: 0.3125rem;
+  height: 1.25rem;
+  line-height: 1.25rem;
+  border-radius: 0.625rem;
+  float: right;
+  background: url(../../Images/set.png) #efefef no-repeat;
+  background-size: 1.25rem 1.25rem;
+  text-indent: 1.5625rem;
+}
+.wrap li .desc .right input {
+  width: 3.4375rem;
+}
+.top {
+  background: white;
+  color: black;
+  margin-bottom: 0.0625rem;
+  height: 3.75rem;
+}
+.top .name {
+  font-size: 0.75rem;
+  padding: 0.5rem 0.625rem;
+}
+.top .code {
+  padding-left: 0.625rem;
+  font-size: 0.625rem;
+  color: #737377;
+}

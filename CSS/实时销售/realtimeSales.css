@@ -1,37 +1,7 @@
 body {
   background: #F1F1F1;
 }
-.wrap-summary {
-  display: block;
-}
-.wrap-summary li {
-  width: 100%;
-  color: black;
-  font-size: 0.6875rem;
-  margin-bottom: 0.0625rem;
-  line-height: 2.0625rem;
-  height: 2.0625rem;
-  background: white;
-  display: flex;
-  display: -webkit-flex;
-}
-.wrap-summary li div:nth-of-type(1) {
-  text-indent: 0.5rem;
-}
-.wrap-summary li .date {
-  width: 25%;
-}
-.wrap-summary li .turnover {
-  width: 35%;
-}
-.wrap-summary li .yieldRate {
-  width: 40%;
-}
 .wrap-stores {
-  display: none;
-  color: #2C2C2C;
-}
-.wrap a {
   color: #2C2C2C;
 }
 .searchBar {
@@ -55,65 +25,28 @@ body {
   color: #9A9B98;
   width: 12.8125rem;
 }
-.order {
-  width: 100%;
-  padding-bottom: 0.625rem;
-  font-size: 0.6875rem;
-}
-.order .glyphicon {
-  font-size: 0.5625rem;
-}
-.clearfix {
-  *zoom: 1;
-}
-.clearfix:after {
-  display: block;
-  clear: both;
-  content: "";
-}
-.order div {
-  text-align: center;
-  height: 1.125rem;
-  line-height: 1.125rem;
-  float: right;
-  background: white;
-  color: #34CC92;
-  width: 3.125rem;
-  margin-right: 0.625rem;
-  border-radius: 0.5625rem;
-}
-.order .active {
-  background: #34CC92 ;
-  color: white;
-}
 .wrap-stores li,
 .wrap-goods li {
   font-size: 0.75rem;
   background: white;
   margin-bottom: 0.3125rem;
 }
-li .store {
+.wrap-stores .store {
   position: relative;
-  height: 2rem;
-  line-height: 2rem;
   border-bottom: 0.0625rem solid #f1f1f1;
+  line-height: 2rem;
+  height: 2rem;
 }
-li .store .glyphicon-star {
+.wrap-stores .store .glyphicon-star {
   color: #e3d111;
   position: absolute;
   left: 0.625rem;
   line-height: 2rem;
   height: 2rem;
 }
-li .store .storeName {
+.wrap-stores .store .storeName {
   position: absolute;
   left: 2.125rem;
-}
-li .store .glyphicon-chevron-right {
-  position: absolute;
-  right: 0.75rem;
-  line-height: 2rem;
-  height: 2rem;
 }
 li .detail {
   display: flex;
@@ -135,13 +68,13 @@ li .detail p {
   top: 0.375rem;
   right: 0.375rem;
 }
+.wrap-goods .store {
+  padding: 0.625rem;
+  border-bottom: 0.0625rem solid #f1f1f1;
+}
 .wrap-goods li .store .storeName {
-  position: absolute;
-  left: 0.625rem;
-  right: 1.875rem;
   text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
+  white-space: normal;
 }
 .bottomTab {
   width: 100%;
