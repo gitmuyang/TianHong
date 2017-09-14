@@ -1,11 +1,28 @@
 body {
-  background: #F1F1F1;
+  background: #EFEFEF;
 }
 .header {
   margin: 0.5rem 0.25rem 0.5rem 0.25rem;
   height: 1.5rem;
 }
-.storeCode,
+.searchBar {
+  position: relative;
+  width: 11.5rem;
+  margin-right: 0.25rem;
+}
+.searchBar .glyphicon-search {
+  position: absolute;
+  left: 0;
+  top: 0.4375rem;
+}
+.searchBar input {
+  position: absolute;
+  top: 0.3125rem;
+  left: 1.25rem;
+  color: #9A9B98;
+  width: 84%;
+}
+.searchBar,
 .counterCode {
   background: white;
   border: none;
@@ -14,10 +31,6 @@ body {
   border-radius: 0.3125rem;
   float: left;
   font-size: 0.6875rem;
-}
-.storeCode {
-  width: 11.5rem;
-  margin-right: 0.25rem;
 }
 .counterCode {
   width: 3.75rem;

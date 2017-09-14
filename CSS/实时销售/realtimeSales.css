@@ -1,5 +1,5 @@
 body {
-  background: #F1F1F1;
+  background: #EFEFEF;
 }
 .wrap-stores {
   color: #2C2C2C;
@@ -33,7 +33,7 @@ body {
 }
 .wrap-stores .store {
   position: relative;
-  border-bottom: 0.0625rem solid #f1f1f1;
+  border-bottom: 0.0625rem solid #efefef;
   line-height: 2rem;
   height: 2rem;
 }
@@ -63,14 +63,18 @@ li .detail p {
 .wrap-goods {
   display: none;
 }
-.wrap-goods .searchBar .glyphicon-barcode {
+.wrap-goods .scan {
   position: absolute;
   top: 0.375rem;
   right: 0.375rem;
+  width: 0.875rem;
+  height: 0.75rem;
+  background: url(../../Images/scan.png);
+  background-size: 0.875rem 0.75rem;
 }
 .wrap-goods .store {
   padding: 0.625rem;
-  border-bottom: 0.0625rem solid #f1f1f1;
+  border-bottom: 0.0625rem solid #efefef;
 }
 .wrap-goods li .store .storeName {
   text-overflow: ellipsis;

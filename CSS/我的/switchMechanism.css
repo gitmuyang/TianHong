@@ -7,13 +7,18 @@ body {
 .wrap li {
   height: 2.5rem;
   border-bottom: 0.0625rem solid #d8d8d8;
-  background: white;
+  background: url(../../Images/com.png) #ffffff no-repeat;
+  background-position: 0.5rem 0.46875rem;
+  background-size: 1.5625rem 1.5625rem;
 }
 .wrap li .name {
-  padding-top: 0.5rem;
-  padding-left: 1.25rem;
+  padding-top: 0.1875rem;
+  padding-left: 2.5625rem;
   float: left;
-  line-height: 0.9375rem;
+}
+.wrap li p {
+  padding: 0;
+  margin: 0;
 }
 .wrap li .check {
   float: right;
@@ -25,17 +30,26 @@ body {
 .wrap li .name .title {
   font-size: 0.75rem;
   color: black;
+  line-height: 1.25rem;
 }
 .wrap li .name .subTitle {
   font-size: 0.625rem;
   color: #737377;
+  line-height: 0.9375rem;
 }
 .wrap .addCompany {
+  background: url(../../Images/add.png) #ffffff no-repeat;
+  background-position: 0.5rem 0.46875rem;
+  background-size: 1.5625rem 1.5625rem;
+}
+.wrap .addCompany a {
+  display: block;
   font-size: 0.75rem;
   color: #34CC92;
   border-bottom: none;
+  height: 2.5rem;
   line-height: 2.5rem;
-  text-align: center;
+  padding-left: 2.5625rem;
 }
 .bottom {
   position: absolute;
@@ -48,10 +62,4 @@ body {
   color: white;
   font-size: 0.75rem;
   text-align: center;
-}
-.wrap input {
-  text-indent: 1.25rem;
-  font-size: 0.75rem;
-  line-height: 2.5rem;
-  width: 95%;
 }

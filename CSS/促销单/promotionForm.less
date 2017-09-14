@@ -1,7 +1,7 @@
 @r:16rem;
 
 body{
-    background: #F1F1F1;
+    background: #EFEFEF;
 }
 
 .header {
@@ -9,7 +9,30 @@ body{
    height: 24/@r;
 }
 
-.storeCode,.counterCode {
+.searchBar {
+    position: relative;
+    width: 184/@r;
+    margin-right: 4/@r;
+    
+}
+
+.searchBar .glyphicon-search {
+    position: absolute;
+    left: 0;
+    top: 7/@r;
+    
+}
+
+.searchBar input {
+    position: absolute;
+    top: 5/@r;
+    left: 20/@r;
+    color: #9A9B98;
+    width: 84%;  
+}
+
+.searchBar,.counterCode {
+    
     background: white;
     border: none;
     height: 24/@r;
@@ -19,10 +42,7 @@ body{
     font-size: 11/@r;
 }
 
-.storeCode {
-    width: 184/@r;
-    margin-right: 4/@r;
-}
+
 .counterCode {
     width: 60/@r;
 }

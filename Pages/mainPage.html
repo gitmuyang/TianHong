@@ -12,7 +12,7 @@
     			html.style.fontSize = hWidth / 16 + "px";
     		})()
     		document.addEventListener("touchstart",function(e){
-//  			e.preventDefault();
+    			e.preventDefault();
     		});
     	</script>
     <link rel="stylesheet" href="../bs/css/bootstrap.css" />
@@ -28,12 +28,12 @@
         			<span id="close" class="glyphicon glyphicon-remove-circle"></span>
         		</a>
             <div class="saleNum">220000</div>
-            <div class="desc">销售额(今天)</div>
+            <div class="desc">销售额（实时）<a href="#" class="glyphicon glyphicon-refresh"></a></div>
         </div>
         <div class="goal">
             <div class="txt">
             		<span>本月总销售</span>
-            		<span>销售目标</span>
+            		<span>上月销售</span>
             </div>
             <div class="wrap">
                 <div class="progress"></div>
@@ -45,7 +45,7 @@
                 <span class="count">1,325,000.00</span>
             </div>
             <div>
-                <a href="goalSet.html" class="salePurpose">销售目标 <span id="edit" class="glyphicon glyphicon-edit"></span></a>
+                <span class="salePurpose">上月销售</span>
                 <span class="count">5,000,000.00</span>
             </div>
         </div>

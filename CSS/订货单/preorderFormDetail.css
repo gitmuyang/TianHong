@@ -1,5 +1,5 @@
 body {
-  background: #F1F1F1;
+  background: #EFEFEF;
   font-size: 0.6875rem;
 }
 .wrap {
@@ -52,6 +52,8 @@ body {
   box-sizing: border-box;
   border: 0.0625rem solid #a9a9a9;
   border-radius: 0.1875rem;
+  text-align: right;
+  padding: 0 0.625rem;
 }
 .sheetThree select {
   display: inline-block;
@@ -79,9 +81,15 @@ body {
   flex-grow: 1;
 }
 .divide {
-  border-bottom: 0.0625rem dashed #a9a9a9;
+  border-bottom: 0.0625rem dashed #cdcdcd;
+}
+.divide input {
+  padding: 0 0.625rem;
+  text-align: right;
+  text-indent: 0;
+  background: white !important;
 }
 .ordDetail {
-  border-bottom: 0.0625rem solid #a9a9a9;
+  border-bottom: 0.0625rem solid #cdcdcd;
   padding-bottom: 0.875rem;
 }

@@ -1,23 +1,158 @@
 <!DOCTYPE html>
 <html>
+
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width,user-scalable=no" />
 		<title>我的信息</title>
 		<link rel="stylesheet" href="../../CSS/base.css" />
 		<link rel="stylesheet" href="../../bs/css/bootstrap.css" />
-		<link rel="stylesheet" href="../CSS/myInfo.css" /> 
+		<link rel="stylesheet" href="../../CSS/订货单/preorderFormDetail.css" />
+		<link rel="stylesheet" href="../../CSS/订货单/addOrderForm.css" />
 		<script>
-			(function(){
+			(function() {
 				var html = document.documentElement;
 				var hWidth = html.getBoundingClientRect().width;
 				html.style.fontSize = hWidth / 16 + "px";
 			})()
-			document.addEventListener("touchstart",function(e){
-//				e.preventDefault();
+			document.addEventListener("touchstart", function(e) {
+				e.preventDefault();
 			});
 		</script>
 	</head>
+
 	<body>
+		<div class="wrap">
+			<ul>
+				<li>
+					<div class="sheetOne">
+						<span class="left">收货地址</span>
+						<select class="right">
+							<option value="">天虹华南物流</option>
+							<option>便利店配送中心</option>
+							<option>南昌仓库</option>
+							<option>厦门仓库</option>
+							<option>长沙仓库</option>
+						</select>
+					</div>
+				</li>
+				<li>
+					<div class="sheetOne">
+						<span class="left">卸货区域</span>
+						<select class="right">
+							<option>1-6#</option>
+						</select>
+					</div>
+				</li>
+				<li>
+					<div class="sheetThree">
+						<span>预约时段</span>
+						<select class="date">
+							<option>2017-08-07</option>
+							<option>2017-07-07</option>
+							<option>2017-06-07</option>
+						</select>
+						<select class="time">
+							<option>8:30-9:30</option>
+							<option>10:00-11:00</option>
+							<option>11:00-12:00</option>
+							<option>13:30-14:30</option>
+						</select>
+					</div>
+				</li>
+				<li class="ordDetail">
+					<div class="close">
+						<button class="glyphicon glyphicon-remove-circle"></button>
+					</div>
+					<div class="divide">
+						<div class="sheetOne">
+							<span class="left">订单</span>
+							<input class="right" type="text" placeholder="ORD-989170808000160" />
+						</div>
+						<div class="summary">
+							<span>24种</span>
+							<span>110种</span>
+							<span>交货期限：17-08-20</span>
+						</div>
+					</div>
+					<div class="sheetTwo">
+						<span>送货品种数</span>
+						<input type="text" placeholder="24" />
+					</div>
+					<div class="sheetTwo">
+						<span>送货件数</span>
+						<input type="text" placeholder="110" />
+					</div>
+				</li>
+				<li class="ordDetail">
+					<div class="close">
+						<button class="glyphicon glyphicon-remove-circle"></button>
+					</div>
+					<div class="divide">
+						<div class="sheetOne">
+							<span class="left">订单</span>
+							<input class="right" type="text" placeholder="ORD-989170808000160" />
+						</div>
+						<div class="summary">
+							<span>24种</span>
+							<span>110种</span>
+							<span>交货期限：17-08-20</span>
+						</div>
+					</div>
+					<div class="sheetTwo">
+						<span>送货品种数</span>
+						<input type="text" placeholder="24" />
+					</div>
+					<div class="sheetTwo">
+						<span>送货件数</span>
+						<input type="text" placeholder="110" />
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div class="bottomTab">
+			<button class="add">添加订货单</button>
+			<button class="submit">提交</button>
+		</div>
+		<div class="addOrder">
+			<div class="wrap-add">
+				<ul>
+					<li>
+						<button class="check"></button>
+						<div class="orderDesc">
+							<div>
+								<span class="left">ORD-989170808000160</span>
+								<span class="right">品种数：1</span>
+							</div>
+							<div>
+								<span class="left">订货件数：6</span>
+								<span class="right">订货单品数：144</span>
+							</div>
+						</div>
+
+					</li>
+					<li>
+						<button class="check"></button>
+						<div class="orderDesc">
+							<div>
+								<span class="left">ORD-989170808000160</span>
+								<span class="right">品种数：1</span>
+							</div>
+							<div>
+								<span class="left">订货件数：6</span>
+								<span class="right">订货单品数：144</span>
+							</div>
+						</div>
+
+					</li>
+					
+				</ul>
+			</div>
+			<div class="footer">
+				<button id="checkAll">全选</button>
+				<button id="sure">确定</button>
+			</div>
+		</div>
 	</body>
+
 </html>

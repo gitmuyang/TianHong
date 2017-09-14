@@ -1,10 +1,11 @@
 body {
-  background: #F1F1F1;
+  background: #EFEFEF;
 }
 .search {
   margin: 0.625rem 0;
   width: 100%;
   height: 1.5rem;
+  font-size: 0.625rem;
 }
 .search .option {
   width: 4.6875rem;
@@ -23,12 +24,11 @@ body {
   border-radius: 0.1875rem;
   height: 1.5rem;
   float: left;
-  font-size: 0.8125rem;
 }
 .search .date .glyphicon-search {
   position: absolute;
   left: 0.3125rem;
-  top: 0.3125rem;
+  top: 0.4375rem;
 }
 .search .date .calendar {
   position: absolute;
@@ -73,7 +73,10 @@ body {
   height: 2.1875rem;
   line-height: 2.1875rem;
   font-size: 0.75rem;
-  border-bottom: 0.0625rem solid #f1f1f1;
+  border-bottom: 0.0625rem solid #efefef;
+}
+.wrap li .topDesc .right {
+  font-size: 0.6875rem;
 }
 .wrap li .reviewed {
   color: #34CC92;

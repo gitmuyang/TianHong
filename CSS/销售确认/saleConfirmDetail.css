@@ -10,7 +10,7 @@ body {
   height: 2.625rem;
   position: relative;
   font-size: 0.75rem;
-  border-bottom: 0.0625rem solid #f1f1f1;
+  border-bottom: 0.0625rem solid #efefef;
 }
 .store .name {
   position: absolute;
@@ -55,7 +55,7 @@ body {
 }
 .wrap {
   color: black;
-  font-size: 0.75rem;
+  font-size: 0.6875rem;
 }
 .wrap li {
   height: 1.875rem;

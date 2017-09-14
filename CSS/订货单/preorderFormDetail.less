@@ -1,7 +1,7 @@
 @r:16rem;
 
 body {
-    background: #F1F1F1;
+    background: #EFEFEF;
     font-size: 11/@r;
 }
 
@@ -13,7 +13,7 @@ body {
 .sheetOne,.sheetThree {
     height: 30/@r;
     padding-top: 10/@r;
-//  background: lightgoldenrodyellow;
+
 }
 .sheetOne .left,.sheetThree span {
     display: inline-block;
@@ -59,7 +59,9 @@ body {
     line-height: 25/@r;
     box-sizing: border-box;
     border: 1/@r solid darkgray;
-    border-radius: 3/@r;    
+    border-radius: 3/@r;
+    text-align: right;
+    padding: 0 10/@r;    
 }
 
 .sheetThree select {
@@ -94,10 +96,17 @@ body {
 }
 
 .divide {
-    border-bottom: 1/@r dashed darkgray;
+    border-bottom: 1/@r dashed #CDCDCD;
+}
+
+.divide input {
+    padding: 0 10/@r;
+    text-align: right;  
+    text-indent: 0;
+    background: white !important;
 }
 
 .ordDetail {
-    border-bottom: 1/@r solid darkgray;
+    border-bottom: 1/@r solid #CDCDCD;
     padding-bottom: 14/@r;
 }

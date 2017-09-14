@@ -1,5 +1,5 @@
 body {
-  background: #F1F1F1;
+  background: #EFEFEF;
 }
 .headerInfo {
   background: #34CC92;
@@ -14,7 +14,7 @@ body {
 }
 li .store {
   position: relative;
-  border-bottom: 0.0625rem solid #f1f1f1;
+  border-bottom: 0.0625rem solid #efefef;
   line-height: 1.75rem;
   height: 1.75rem;
 }
@@ -40,7 +40,7 @@ li .store .storeName {
 }
 .headerInfo .store {
   padding: 0.625rem;
-  border-bottom: 0.0625rem solid #f1f1f1;
+  border-bottom: 0.0625rem solid #efefef;
 }
 li .store .glyphicon-star {
   font-size: 0.875rem;

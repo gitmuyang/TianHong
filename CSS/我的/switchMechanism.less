@@ -11,19 +11,23 @@ body{
 .wrap li {
     height: 40/@r;
     border-bottom: 1/@r solid #D8D8D8;
-    background: white;
+    background: url(../../Images/com.png) white no-repeat;
+    background-position: 8/@r 7.5/@r;
+    background-size: 25/@r 25/@r;
 }
+
 .wrap li .name {
-    padding-top: 8/@r;
-    padding-left: 20/@r;
-    float: left;
-//  background: lightblue;
-    line-height: 15/@r;
+    padding-top: 3/@r;
+    padding-left: 41/@r;
+    float: left;   
+}
+.wrap li p{
+    padding: 0;
+    margin: 0;
 }
 
 .wrap li .check {
     float: right;
-//  background: lightcoral;
     width: 30/@r;
     height: 40/@r;
     line-height: 40/@r;
@@ -31,21 +35,34 @@ body{
 }
 
 .wrap li .name .title {
+    
     font-size: 12/@r;
     color: black;
+    line-height: 20/@r;
 }
 
 .wrap li .name .subTitle{
     font-size: 10/@r;
     color: #737377;
+    line-height: 15/@r;
+//  background: lightblue;
 }
 
 .wrap .addCompany {
+    
+    background: url(../../Images/add.png) white no-repeat;
+    background-position: 8/@r 7.5/@r;
+    background-size: 25/@r 25/@r;
+}
+
+.wrap .addCompany a{
+    display: block;
     font-size: 12/@r;
     color: #34CC92;
     border-bottom: none;
+    height: 40/@r;
     line-height: 40/@r;
-    text-align: center;
+    padding-left: 41/@r;
 }
 
 .bottom {
@@ -61,12 +78,4 @@ body{
     text-align: center;
 }
 
-
-//addMechanism
-.wrap input{
-    text-indent: 20/@r;
-    font-size: 12/@r;
-    line-height: 40/@r;
-    width: 95%;
-}
 

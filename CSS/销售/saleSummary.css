@@ -1,5 +1,5 @@
 body {
-  background: #F1F1F1;
+  background: #EFEFEF;
 }
 .wrap-summary {
   display: block;
@@ -77,7 +77,7 @@ body {
   line-height: 1.125rem;
   float: right;
   background: white;
-  color: #34CC92;
+  color: #2C2C2C;
   width: 3.125rem;
   margin-right: 0.625rem;
   border-radius: 0.5625rem;
@@ -96,7 +96,7 @@ li .store {
   position: relative;
   height: 2rem;
   line-height: 2rem;
-  border-bottom: 0.0625rem solid #f1f1f1;
+  border-bottom: 0.0625rem solid #efefef;
 }
 li .store .glyphicon-star {
   color: #e3d111;
@@ -109,7 +109,7 @@ li .store .storeName {
   position: absolute;
   left: 2.125rem;
 }
-li .store .glyphicon-chevron-right {
+li .store .glyphicon-menu-right {
   position: absolute;
   right: 0.75rem;
   line-height: 2rem;
@@ -130,10 +130,14 @@ li .detail p {
 .wrap-goods {
   display: none;
 }
-.wrap-goods .searchBar .glyphicon-barcode {
+.wrap-goods .searchBar .scan {
   position: absolute;
   top: 0.375rem;
   right: 0.375rem;
+  width: 0.875rem;
+  height: 0.75rem;
+  background: url(../../Images/scan.png);
+  background-size: 0.875rem 0.75rem;
 }
 .wrap-goods li .store .storeName {
   position: absolute;

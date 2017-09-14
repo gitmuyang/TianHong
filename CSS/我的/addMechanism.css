@@ -1,0 +1,29 @@
+body {
+  background: #EFEFEF;
+}
+.wrap {
+  margin-top: 0.625rem;
+}
+.wrap li {
+  background: white;
+  height: 2.5rem;
+  border-bottom: 0.0625rem solid #d8d8d8;
+}
+.wrap input {
+  text-indent: 1.25rem;
+  font-size: 0.75rem;
+  line-height: 2.5rem;
+  width: 95%;
+}
+.bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 2.25rem;
+  line-height: 2.25rem;
+  background: #34CC92;
+  color: white;
+  font-size: 0.75rem;
+  text-align: center;
+}

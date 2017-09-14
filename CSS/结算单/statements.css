@@ -5,6 +5,7 @@ body {
   margin: 0.625rem 0;
   width: 100%;
   height: 1.5rem;
+  font-size: 0.75rem;
 }
 .search .option {
   width: 4.6875rem;
@@ -23,7 +24,6 @@ body {
   border-radius: 0.1875rem;
   height: 1.5rem;
   float: left;
-  font-size: 0.75rem;
 }
 .searchBar .glyphicon-search {
   position: absolute;

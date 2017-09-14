@@ -1,5 +1,5 @@
 body {
-  background: #34CC92;
+  background: #2FC487;
   color: white;
   font-size: 0.75rem;
 }
@@ -58,7 +58,7 @@ input:-ms-input-placeholder {
 }
 .login {
   text-align: center;
-  color: #34CC92;
+  color: #2FC487;
   background: white;
   font-size: 0.6875rem;
 }

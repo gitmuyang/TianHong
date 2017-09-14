@@ -1,5 +1,5 @@
 body {
-  background: #F1F1F1;
+  background: #EFEFEF;
 }
 .header {
   background: #34CC92;
@@ -34,12 +34,11 @@ body {
   line-height: 1.6875rem;
   color: black;
   text-indent: 0.3125rem;
-  border-bottom: 0.0625rem solid #f1f1f1;
+  border-bottom: 0.0625rem solid #efefef;
 }
 .wrap li .snackDesc {
-  height: 1.75rem;
-  line-height: 1.75rem;
-  border-bottom: 0.0625rem solid #f1f1f1;
+  height: 1.5625rem;
+  line-height: 1.5625rem;
 }
 .wrap li .snackDesc span {
   float: left;
@@ -52,6 +51,7 @@ body {
   width: 55%;
 }
 .wrap .cancelReason {
+  border-top: 0.0625rem solid #efefef;
   padding: 0.3125rem;
   line-height: 1.3125rem;
 }

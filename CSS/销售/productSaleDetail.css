@@ -1,5 +1,5 @@
 body {
-  background: #F1F1F1;
+  background: #EFEFEF;
 }
 .headerInfo {
   background: #34CC92;
@@ -14,7 +14,7 @@ body {
 }
 .store {
   position: relative;
-  border-bottom: 0.0625rem solid #f1f1f1;
+  border-bottom: 0.0625rem solid #efefef;
 }
 li .store .storeName {
   display: block;
