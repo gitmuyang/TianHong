@@ -89,11 +89,11 @@ body {
   background: white;
   color: black;
   margin-bottom: 0.0625rem;
-  height: 3.75rem;
+  height: 4rem;
 }
 .top .name {
   font-size: 0.75rem;
-  padding: 0.5rem 0.625rem;
+  padding: 0.5rem 0.625rem 0.3rem;
 }
 .top .code {
   padding-left: 0.625rem;
