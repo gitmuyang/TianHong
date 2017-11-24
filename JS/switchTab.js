@@ -1,7 +1,5 @@
-window.onload = function() {
-	switchDiv();
-}
 
+	
 function switchDiv() {
 
 	var wraps = document.querySelectorAll(".wrap");
@@ -12,6 +10,7 @@ function switchDiv() {
 	var lastTab = tabItems[0];
 	var lastWrap = wraps[0];
 	for(var i = 0; i < tabItems.length; i++) {
+		
 		var oItem = tabItems[i];
 		oItem.index = i;
 		oItem.addEventListener("touchend", function() {

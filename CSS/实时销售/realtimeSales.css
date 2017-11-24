@@ -60,6 +60,10 @@ li .detail div {
 li .detail p {
   line-height: 1.125rem;
 }
+
+li a{
+	color: black;
+}
 .wrap-goods {
   display: none;
 }

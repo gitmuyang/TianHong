@@ -47,13 +47,13 @@ input:-ms-input-placeholder {
   color: white;
 }
 .number {
-  background: url(../../Images/登录/build.png) no-repeat;
+  background: url(../Images/登录/build.png) no-repeat;
 }
 .acc {
-  background: url(../../Images/登录/person.png) no-repeat;
+  background: url(../Images/登录/person.png) no-repeat;
 }
 .pwd {
-  background: url(../../Images/登录/key.png) no-repeat;
+  background: url(../Images/登录/key.png) no-repeat;
   margin-bottom: 1.25rem !important;
 }
 .login {

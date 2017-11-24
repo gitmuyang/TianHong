@@ -1,6 +1,24 @@
 @r: 16rem;
-body {
+
+
+html{
     background: #EFEFEF;
+    position: relative;
+    height: 100%;
+}
+
+#topView {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 44/@r;
+    top: 0;
+    overflow: hidden;
+}
+
+.wrap{
+    width: 100%;
+    height: 100%;
 }
 
 .wrap-summary {
@@ -46,9 +64,18 @@ body {
     color: #2C2C2C;
 }
 
+.searchArea{
+    position: absolute;
+    top: 10/@r;
+    left: 0;
+    right: 0;
+    height: 62/@r;
+    
+}
+
 .searchBar {
     position: relative;
-    margin: 10/@r 5/@r;
+    margin: 0 5/@r 10/@r;
     height: 24/@r;
     line-height: 24/@r;
     border-radius: 3/@r;
@@ -73,6 +100,7 @@ body {
 }
  .order {
     width: 100%;
+    height: 18/@r;
     padding-bottom: 10/@r;
     font-size: 11/@r;
 }
@@ -107,6 +135,15 @@ body {
     color:white;
     
 }
+.wrap .list{
+    position: absolute;
+    top: 72/@r;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+}
+
 .wrap-stores li,.wrap-goods li {
     font-size: 12/@r;
     background: white;

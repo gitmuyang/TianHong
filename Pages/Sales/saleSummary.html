@@ -1,133 +1,502 @@
 <!DOCTYPE html>
 <html>
+
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width,user-scalable=no" />
 		<title>汇总</title>
 		<link rel="stylesheet" href="../../bs/css/bootstrap.css" />
 		<link rel="stylesheet" href="../../CSS/base.css" />
-		<link rel="stylesheet" href="../../CSS/销售/saleSummary.css" /> 
+		<link rel="stylesheet" href="../../CSS/销售/saleSummary.css" />
 		<script>
-			(function(){
+			(function() {
 				var html = document.documentElement;
 				var hWidth = html.getBoundingClientRect().width;
-				
 				html.style.fontSize = hWidth / 16 + "px";
 			})()
-			document.addEventListener("touchstart",function(e){
-//				e.preventDefault();
+			document.addEventListener("touchstart", function(e) {
+				e.preventDefault();
 			});
 		</script>
-		<script type="text/javascript" src="../../JS/销售/saleSummary.js"></script>
+		<script type="text/javascript" src="../../JS/switchTab.js"></script>
+		<script type="text/javascript" src="../../JS/m.Tween.js"></script>
+		<script type="text/javascript" src="../../JS/scroll.js"></script>
+		<script type="text/javascript" src="../../JS/saleSummary.js"></script>
 	</head>
+
 	<body>
-		<div class="wrap wrap-summary">
-			<ul>
-				<li>
-					<div class="date">2017-07</div>
-					<div class="turnover">43.00</div>
-					<div class="yieldRate">环比：1%</div>
-				</li>
-				<li>
-					<div class="date">2017-07</div>
-					<div class="turnover">81209843.00</div>
-					<div class="yieldRate">环比：110%</div>
-				</li>
-				<li>
-					<div class="date">2017-07</div>
-					<div class="turnover">81209843.00</div>
-					<div class="yieldRate">环比：110%</div>
-				</li>
-				<li>
-					<div class="date">2017-07</div>
-					<div class="turnover">81209843.00</div>
-					<div class="yieldRate">环比：110%</div>
-				</li>
-				
-				
-			</ul>
-		</div>
-		<div class="wrap wrap-stores">
-			<div class="searchBar">
-				<span class="glyphicon glyphicon-search"></span>
-				<input type="search" placeholder="门店名称、编码模糊查询" />
-			</div>
-			<div class="order clearfix">
-				<div class="lastMonth">上月 <span class="glyphicon glyphicon-arrow-down"></span></div>
-				<div class="month active">本月 <span class="glyphicon glyphicon-arrow-up"></span></div>
-			</div>
-			<ul>
-				<li>
-					<a href="productSaleDetail.html">
-						<div class="store">
-						<span class="glyphicon glyphicon-star"></span>
-						<span class="storeName">南山店</span>
-						<span class="glyphicon glyphicon-menu-right"></span>
-					</div>
-					<div class="detail">
-						<div>
-							<p>本月销售：823168.00</p>
-							<p>上月销售：823168.00</p>
-						</div>
-						<div>
-							<p>目标达成率：110%</p>
-						</div>
-					</div>
-					</a>
-				</li>
-				<li>
-					<a href="productSaleDetail.html">
-						<div class="store">
-						<span class="glyphicon glyphicon-star"></span>
-						<span class="storeName">南山店</span>
-						<span class="glyphicon glyphicon-menu-right"></span>
-					</div>
-					<div class="detail">
-						<div>
-							<p>本月销售：823168.00</p>
-							<p>上月销售：823168.00</p>
-						</div>
-						<div>
-							<p>目标达成率：110%</p>
-						</div>
-					</div>
-					</a>
-				</li>
+		<div id="topView">
+			<div class="wrap wrap-summary">
+				<ul>
+					<li>
+						<div class="date">2017-07</div>
+						<div class="turnover">43.00</div>
+						<div class="yieldRate">环比：1%</div>
+					</li>
+					<li>
+						<div class="date">2017-07</div>
+						<div class="turnover">81209843.00</div>
+						<div class="yieldRate">环比：110%</div>
+					</li>
+					<li>
+						<div class="date">2017-07</div>
+						<div class="turnover">81209843.00</div>
+						<div class="yieldRate">环比：110%</div>
+					</li>
+					<li>
+						<div class="date">2017-07</div>
+						<div class="turnover">81209843.00</div>
+						<div class="yieldRate">环比：110%</div>
+					</li>
+					<li>
+						<div class="date">2017-07</div>
+						<div class="turnover">43.00</div>
+						<div class="yieldRate">环比：1%</div>
+					</li>
+					<li>
+						<div class="date">2017-07</div>
+						<div class="turnover">81209843.00</div>
+						<div class="yieldRate">环比：110%</div>
+					</li>
+					<li>
+						<div class="date">2017-07</div>
+						<div class="turnover">81209843.00</div>
+						<div class="yieldRate">环比：110%</div>
+					</li>
+					<li>
+						<div class="date">2017-07</div>
+						<div class="turnover">43.00</div>
+						<div class="yieldRate">环比：1%</div>
+					</li>
+					<li>
+						<div class="date">2017-07</div>
+						<div class="turnover">81209843.00</div>
+						<div class="yieldRate">环比：110%</div>
+					</li>
+					<li>
+						<div class="date">2017-07</div>
+						<div class="turnover">81209843.00</div>
+						<div class="yieldRate">环比：110%</div>
+					</li>
+					<li>
+						<div class="date">2017-07</div>
+						<div class="turnover">81209843.00</div>
+						<div class="yieldRate">环比：110%</div>
+					</li>
+					<li>
+						<div class="date">2017-07</div>
+						<div class="turnover">43.00</div>
+						<div class="yieldRate">环比：1%</div>
+					</li>
+					<li>
+						<div class="date">2017-07</div>
+						<div class="turnover">81209843.00</div>
+						<div class="yieldRate">环比：110%</div>
+					</li>
+					<li>
+						<div class="date">2017-07</div>
+						<div class="turnover">81209843.00</div>
+						<div class="yieldRate">环比：110%</div>
+					</li>
+					<li>
+						<div class="date">2017-07</div>
+						<div class="turnover">81209843.00</div>
+						<div class="yieldRate">环比：110%</div>
+					</li>
+					<li>
+						<div class="date">2017-07</div>
+						<div class="turnover">43.00</div>
+						<div class="yieldRate">环比：1%</div>
+					</li>
+					<li>
+						<div class="date">2017-07</div>
+						<div class="turnover">81209843.00</div>
+						<div class="yieldRate">环比：110%</div>
+					</li>
+					<li>
+						<div class="date">2017-07</div>
+						<div class="turnover">81209843.00</div>
+						<div class="yieldRate">环比：110%</div>
+					</li>
+					<li>
+						<div class="date">2017-07</div>
+						<div class="turnover">81209843.00</div>
+						<div class="yieldRate">环比：110%</div>
+					</li>
+
 				</ul>
-		</div>
-		<div class="wrap wrap-goods">
-			<div class="searchBar">
-				<span class="glyphicon glyphicon-search"></span>
-				<input type="search" placeholder="门店名称、编码模糊查询" />
-				<span class="scan"></span>
 			</div>
-			<div class="order clearfix">
-				<div class="ratio">环比<span class="glyphicon glyphicon-arrow-up"></span></div>
-			<div class="lastMonth">上月<span class="glyphicon glyphicon-arrow-down"></span></div>
-			<div class="month active">本月<span class="glyphicon glyphicon-arrow-up"></span></div>
+			<div class="wrap wrap-stores">
+				<div class="searchArea">
+					<div class="searchBar">
+						<span class="glyphicon glyphicon-search"></span>
+						<input type="search" placeholder="门店名称、编码模糊查询" />
+					</div>
+					<div class="order clearfix">
+						<div class="lastMonth">上月 <span class="glyphicon glyphicon-arrow-down"></span></div>
+						<div class="month active">本月 <span class="glyphicon glyphicon-arrow-up"></span></div>
+					</div>
+				</div>
+				<div class="list">
+					<ul>
+						<li>
+							<a href="productSaleDetail.html">
+								<div class="store">
+									<span class="glyphicon glyphicon-star"></span>
+									<span class="storeName">南山店</span>
+									<span class="glyphicon glyphicon-menu-right"></span>
+								</div>
+								<div class="detail">
+									<div>
+										<p>本月销售：823168.00</p>
+										<p>上月销售：823168.00</p>
+									</div>
+									<div>
+										<p>环比：110%</p>
+									</div>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="productSaleDetail.html">
+								<div class="store">
+									<span class="glyphicon glyphicon-star"></span>
+									<span class="storeName">南山店</span>
+									<span class="glyphicon glyphicon-menu-right"></span>
+								</div>
+								<div class="detail">
+									<div>
+										<p>本月销售：823168.00</p>
+										<p>上月销售：823168.00</p>
+									</div>
+									<div>
+										<p>环比：110%</p>
+									</div>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="productSaleDetail.html">
+								<div class="store">
+									<span class="glyphicon glyphicon-star"></span>
+									<span class="storeName">南山店</span>
+									<span class="glyphicon glyphicon-menu-right"></span>
+								</div>
+								<div class="detail">
+									<div>
+										<p>本月销售：823168.00</p>
+										<p>上月销售：823168.00</p>
+									</div>
+									<div>
+										<p>环比：110%</p>
+									</div>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="productSaleDetail.html">
+								<div class="store">
+									<span class="glyphicon glyphicon-star"></span>
+									<span class="storeName">南山店</span>
+									<span class="glyphicon glyphicon-menu-right"></span>
+								</div>
+								<div class="detail">
+									<div>
+										<p>本月销售：823168.00</p>
+										<p>上月销售：823168.00</p>
+									</div>
+									<div>
+										<p>环比：110%</p>
+									</div>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="productSaleDetail.html">
+								<div class="store">
+									<span class="glyphicon glyphicon-star"></span>
+									<span class="storeName">南山店</span>
+									<span class="glyphicon glyphicon-menu-right"></span>
+								</div>
+								<div class="detail">
+									<div>
+										<p>本月销售：823168.00</p>
+										<p>上月销售：823168.00</p>
+									</div>
+									<div>
+										<p>环比：110%</p>
+									</div>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="productSaleDetail.html">
+								<div class="store">
+									<span class="glyphicon glyphicon-star"></span>
+									<span class="storeName">南山店</span>
+									<span class="glyphicon glyphicon-menu-right"></span>
+								</div>
+								<div class="detail">
+									<div>
+										<p>本月销售：823168.00</p>
+										<p>上月销售：823168.00</p>
+									</div>
+									<div>
+										<p>环比：110%</p>
+									</div>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="productSaleDetail.html">
+								<div class="store">
+									<span class="glyphicon glyphicon-star"></span>
+									<span class="storeName">南山店</span>
+									<span class="glyphicon glyphicon-menu-right"></span>
+								</div>
+								<div class="detail">
+									<div>
+										<p>本月销售：823168.00</p>
+										<p>上月销售：823168.00</p>
+									</div>
+									<div>
+										<p>环比：110%</p>
+									</div>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="productSaleDetail.html">
+								<div class="store">
+									<span class="glyphicon glyphicon-star"></span>
+									<span class="storeName">南山店</span>
+									<span class="glyphicon glyphicon-menu-right"></span>
+								</div>
+								<div class="detail">
+									<div>
+										<p>本月销售：823168.00</p>
+										<p>上月销售：823168.00</p>
+									</div>
+									<div>
+										<p>环比：110%</p>
+									</div>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="productSaleDetail.html">
+								<div class="store">
+									<span class="glyphicon glyphicon-star"></span>
+									<span class="storeName">南山店</span>
+									<span class="glyphicon glyphicon-menu-right"></span>
+								</div>
+								<div class="detail">
+									<div>
+										<p>本月销售：823168.00</p>
+										<p>上月销售：823168.00</p>
+									</div>
+									<div>
+										<p>环比：110%</p>
+									</div>
+								</div>
+							</a>
+						</li>
+					</ul>
+
+				</div>
 			</div>
-			<ul>
-				<li>
-					<a href="storeSaleDetail.html">
-						<div class="store">
-						<span class="storeName">鲁花 5S压榨一级花生油（沃尔玛） 非转基因 5.436L
+			<div class="wrap wrap-goods">
+				<div class="searchArea">
+					<div class="searchBar">
+						<span class="glyphicon glyphicon-search"></span>
+						<input type="search" placeholder="门店名称、编码模糊查询" />
+						<span class="scan"></span>
+					</div>
+					<div class="order clearfix">
+						<div class="ratio">环比<span class="glyphicon glyphicon-arrow-up"></span></div>
+						<div class="lastMonth">上月<span class="glyphicon glyphicon-arrow-down"></span></div>
+						<div class="month active">本月<span class="glyphicon glyphicon-arrow-up"></span></div>
+					</div>
+				</div>
+				<div class="list">
+					<ul>
+					<li>
+						<a href="storeSaleDetail.html">
+							<div class="store">
+								<span class="storeName">鲁花 5S压榨一级花生油（沃尔玛） 非转基因 5.436L
 						赠品装/非赠品装随机配送</span>
-						<span class="glyphicon glyphicon-menu-right"></span>
-					</div>
-					<div class="detail">
-						<div>
-							<p>本月销售：823168.00</p>
-							<p>上月销售：823168.00</p>
-						</div>
-						<div>
-							<p>商品条码：6932037210012</p>
-							<p>环比：18%</p>
-						</div>
-					</div>
-					</a>
-				</li>
-			</ul>
-			<!--<footer>上拉加载更多...</footer>-->
+								<span class="glyphicon glyphicon-menu-right"></span>
+							</div>
+							<div class="detail">
+								<div>
+									<p>本月销售：823168.00</p>
+									<p>上月销售：823168.00</p>
+								</div>
+								<div>
+									<p>商品条码：6932037210012</p>
+									<p>环比：18%</p>
+								</div>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="storeSaleDetail.html">
+							<div class="store">
+								<span class="storeName">鲁花 5S压榨一级花生油（沃尔玛） 非转基因 5.436L
+						赠品装/非赠品装随机配送</span>
+								<span class="glyphicon glyphicon-menu-right"></span>
+							</div>
+							<div class="detail">
+								<div>
+									<p>本月销售：823168.00</p>
+									<p>上月销售：823168.00</p>
+								</div>
+								<div>
+									<p>商品条码：6932037210012</p>
+									<p>环比：18%</p>
+								</div>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="storeSaleDetail.html">
+							<div class="store">
+								<span class="storeName">鲁花 5S压榨一级花生油（沃尔玛） 非转基因 5.436L
+						赠品装/非赠品装随机配送</span>
+								<span class="glyphicon glyphicon-menu-right"></span>
+							</div>
+							<div class="detail">
+								<div>
+									<p>本月销售：823168.00</p>
+									<p>上月销售：823168.00</p>
+								</div>
+								<div>
+									<p>商品条码：6932037210012</p>
+									<p>环比：18%</p>
+								</div>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="storeSaleDetail.html">
+							<div class="store">
+								<span class="storeName">鲁花 5S压榨一级花生油（沃尔玛） 非转基因 5.436L
+						赠品装/非赠品装随机配送</span>
+								<span class="glyphicon glyphicon-menu-right"></span>
+							</div>
+							<div class="detail">
+								<div>
+									<p>本月销售：823168.00</p>
+									<p>上月销售：823168.00</p>
+								</div>
+								<div>
+									<p>商品条码：6932037210012</p>
+									<p>环比：18%</p>
+								</div>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="storeSaleDetail.html">
+							<div class="store">
+								<span class="storeName">鲁花 5S压榨一级花生油（沃尔玛） 非转基因 5.436L
+						赠品装/非赠品装随机配送</span>
+								<span class="glyphicon glyphicon-menu-right"></span>
+							</div>
+							<div class="detail">
+								<div>
+									<p>本月销售：823168.00</p>
+									<p>上月销售：823168.00</p>
+								</div>
+								<div>
+									<p>商品条码：6932037210012</p>
+									<p>环比：18%</p>
+								</div>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="storeSaleDetail.html">
+							<div class="store">
+								<span class="storeName">鲁花 5S压榨一级花生油（沃尔玛） 非转基因 5.436L
+						赠品装/非赠品装随机配送</span>
+								<span class="glyphicon glyphicon-menu-right"></span>
+							</div>
+							<div class="detail">
+								<div>
+									<p>本月销售：823168.00</p>
+									<p>上月销售：823168.00</p>
+								</div>
+								<div>
+									<p>商品条码：6932037210012</p>
+									<p>环比：18%</p>
+								</div>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="storeSaleDetail.html">
+							<div class="store">
+								<span class="storeName">鲁花 5S压榨一级花生油（沃尔玛） 非转基因 5.436L
+						赠品装/非赠品装随机配送</span>
+								<span class="glyphicon glyphicon-menu-right"></span>
+							</div>
+							<div class="detail">
+								<div>
+									<p>本月销售：823168.00</p>
+									<p>上月销售：823168.00</p>
+								</div>
+								<div>
+									<p>商品条码：6932037210012</p>
+									<p>环比：18%</p>
+								</div>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="storeSaleDetail.html">
+							<div class="store">
+								<span class="storeName">鲁花 5S压榨一级花生油（沃尔玛） 非转基因 5.436L
+						赠品装/非赠品装随机配送</span>
+								<span class="glyphicon glyphicon-menu-right"></span>
+							</div>
+							<div class="detail">
+								<div>
+									<p>本月销售：823168.00</p>
+									<p>上月销售：823168.00</p>
+								</div>
+								<div>
+									<p>商品条码：6932037210012</p>
+									<p>环比：18%</p>
+								</div>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="storeSaleDetail.html">
+							<div class="store">
+								<span class="storeName">鲁花 5S压榨一级花生油（沃尔玛） 非转基因 5.436L
+						赠品装/非赠品装随机配送</span>
+								<span class="glyphicon glyphicon-menu-right"></span>
+							</div>
+							<div class="detail">
+								<div>
+									<p>本月销售：823168.00</p>
+									<p>上月销售：823168.00</p>
+								</div>
+								<div>
+									<p>商品条码：6932037210012</p>
+									<p>环比：18%</p>
+								</div>
+							</div>
+						</a>
+					</li>
+				</ul>
+				
+				</div>
+				<!--<footer>上拉加载更多...</footer>-->
+			</div>
+
 		</div>
 		<div class="bottomTab">
 			<div class="active">汇总</div>
@@ -135,5 +504,5 @@
 			<div class="right">商品</div>
 		</div>
 	</body>
+
 </html>
-						
